@@ -3,7 +3,7 @@ const fileNames = [
   'img/pirate-logo-color.png',
   'img/pirate-logo-color-new.png',
   'img/missingno.png',
-  'img/thevoid.jpg',
+  'img/thevoid.png',
   'img/floppysl.png',
 ];
 
