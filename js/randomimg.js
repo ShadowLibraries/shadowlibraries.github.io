@@ -3,8 +3,16 @@ const fileNames = [
   'img/pirate-logo-color.png',
   'img/pirate-logo-color-new.png',
   'img/missingno.png',
-  'img/thevoid.png',
+  'img/main-illo.svg',
   'img/floppysl.png',
+  'img/binv.png',
+  'img/binv.png',
+  'img/binv.png',
+  'img/binv.png',
+  'img/binv.png',
+  'img/binv.png',
+  'img/binv.png',
+  'img/binv.png',
 ];
 
 // Get a random index from the list of file names
