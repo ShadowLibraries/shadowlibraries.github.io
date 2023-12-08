@@ -5,14 +5,6 @@ const fileNames = [
   'img/missingno.png',
   'img/main-illo.svg',
   'img/floppysl.png',
-  'img/binv.png',
-  'img/binv.png',
-  'img/binv.png',
-  'img/binv.png',
-  'img/binv.png',
-  'img/binv.png',
-  'img/binv.png',
-  'img/binv.png',
 ];
 
 // Get a random index from the list of file names
