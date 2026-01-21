@@ -104,8 +104,29 @@
 &lt;p&gt;&lt;img src="https://i.imgur.com/Qu05N6D.png" alt="Telegram Bot Image" /&gt;&lt;/p&gt;</description></item><item><title>Reading Online</title><link>https://example.org/ReadingOnline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/ReadingOnline/</guid><description>&lt;h3 id="links"&gt;Links:&lt;a class="anchor" href="#links"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://readanybook.com/"&gt;ReadAnyBook&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>About</title><link>https://example.org/About/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/About/</guid><description>&lt;h2 id="home"&gt;Home&lt;a class="anchor" href="#home"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://example.org/About/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/About/</guid><description>&lt;h2 id="about"&gt;About&lt;a class="anchor" href="#about"&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The name of this site comes from the &lt;a href="https://mitpress.mit.edu/books/shadow-libraries"&gt;homonym book&lt;/a&gt; edited by Joe Karaganis.&lt;/p&gt;
 &lt;p&gt;Shadow libraries, sometimes called pirate libraries, consist of texts aggregated outside the legal framework of copyright.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Today&amp;rsquo;s pirate libraries have their roots in the work of Russian academics to digitize texts in the 1990s. Scholars in that part of the world had long had a thriving practice of passing literature and scientific information underground, in opposition to government censorship—part of the samizdat culture, in which banned documents were copied and passed hand to hand through illicit channels. Those first digital collections were passed freely around, but when their creators started running into problems with copyright, their collections “retreated from the public view,&amp;quot; &lt;a href="https://pure.uva.nl/ws/files/2341818/162448_Libraries_in_the_post_scarcity_era.pdf"&gt;writes Balázs Bodó&lt;/a&gt;, a piracy researcher based at the University of Amsterdam. &amp;ldquo;The text collections were far too valuable to simply delete,&amp;rdquo; he writes, and instead migrated to &amp;ldquo;closed, membership-only FTP servers.&amp;rdquo;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Today&amp;rsquo;s pirate libraries have their roots in the work of Russian academics to digitize texts in the 1990s. Scholars in that part of the world had long had a thriving practice of passing literature and scientific information underground, in opposition to government censorship—part of the samizdat culture, in which banned documents were copied and passed hand to hand through illicit channels. Those first digital collections were passed freely around, but when their creators started running into problems with copyright, their collections “retreated from the public view,&amp;quot; &lt;a href="https://pure.uva.nl/ws/files/2341818/162448_Libraries_in_the_post_scarcity_era.pdf"&gt;writes Balázs Bodó&lt;/a&gt;, a piracy researcher based at the University of Amsterdam. &amp;ldquo;The text collections were far too valuable to simply delete,&amp;rdquo; he writes, and instead migrated to &amp;ldquo;closed, membership-only FTP servers.&amp;rdquo;&lt;/p&gt;</description></item><item><title/><link>https://example.org/buymeacoffee/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/buymeacoffee/</guid><description>&lt;h2 id="buy-me-a-coffee-"&gt;Buy me a coffee ☕&lt;a class="anchor" href="#buy-me-a-coffee-"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re feelling really generous you can tip some money via crypto.&lt;/p&gt;
+&lt;div class="book-tabs"&gt;
+&lt;input type="radio" class="toggle" name="tabs-0" id="tabs-0-0" checked="checked" /&gt;&lt;label for="tabs-0-0"&gt;BTC&lt;/label&gt;&lt;div class="book-tabs-content markdown-inner"&gt;
+ &lt;div style="display: flex; 
+ flex-direction: column; 
+ justify-content: center; 
+ align-items: center; 
+ text-align: center;
+ word-wrap: break-word"&gt;
+&lt;p&gt;&lt;img src="https://example.org/images/btc.png" alt="btc wallet" /&gt;&lt;/p&gt;
+&lt;div style="display: flex; align-items: center; gap: 10px;"&gt;
+&lt;input type="text" id="btc" aria-label="readonly" readonly="" value="bc1qa20a5pe04m7jnjn8zj8mwp5k56x9pcxa9g7hgm" style="width: auto; flex-grow: 1;"&gt; &lt;button style="all: unset; cursor: pointer; display: flex;" onclick="myFunctionbtc()"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 640 640"&gt;&lt;path d="M288 64C252.7 64 224 92.7 224 128L224 384C224 419.3 252.7 448 288 448L480 448C515.3 448 544 419.3 544 384L544 183.4C544 166 536.9 149.3 524.3 137.2L466.6 81.8C454.7 70.4 438.8 64 422.3 64L288 64zM160 192C124.7 192 96 220.7 96 256L96 512C96 547.3 124.7 576 160 576L352 576C387.3 576 416 547.3 416 512L416 496L352 496L352 512L160 512L160 256L176 256L176 192L160 192z" fill="white"/&gt;&lt;/svg&gt;&lt;/button&gt; 
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;input type="radio" class="toggle" name="tabs-0" id="tabs-0-1" /&gt;&lt;label for="tabs-0-1"&gt;Monero&lt;/label&gt;&lt;div class="book-tabs-content markdown-inner"&gt;
+ &lt;div style="display: flex; 
+ flex-direction: column; 
+ align-items: center; 
+ text-align: center"&gt;
+&lt;p&gt;&lt;img src="https://example.org/images/monero.png" alt="monero wallet" /&gt;&lt;/p&gt;</description></item></channel></rss>
