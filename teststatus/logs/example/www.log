@@ -1,0 +1,13 @@
+# version: 2
+# schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+2026-08-20T23:16:22.103639+00:00,example,example.www,PROTECTED,200,238,,Cloudflare
+2026-08-20T23:22:11.929037+00:00,example,example.www,PROTECTED,200,233,,Cloudflare
+2026-08-20T23:23:11.977913+00:00,example,example.www,PROTECTED,200,127,,Cloudflare
+2026-08-20T23:24:12.081108+00:00,example,example.www,PROTECTED,200,183,,Cloudflare
+2026-08-20T23:25:12.214919+00:00,example,example.www,PROTECTED,200,251,,Cloudflare
+2026-08-20T23:26:12.075806+00:00,example,example.www,PROTECTED,200,15,,Cloudflare
+2026-08-20T23:27:12.371965+00:00,example,example.www,PROTECTED,200,239,,Cloudflare
+2026-08-20T23:28:12.256733+00:00,example,example.www,PROTECTED,200,65,,Cloudflare
+2026-08-20T23:35:23.365832+00:00,example,example.www,PROTECTED,200,263,,Cloudflare
+2026-08-20T23:36:23.504885+00:00,example,example.www,PROTECTED,200,231,,Cloudflare

@@ -1,0 +1,13 @@
+# version: 2
+# schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+2026-08-20T23:16:21.960100+00:00,httpbin,httpbin.status500,DOWN,500,257,http_error,
+2026-08-20T23:22:11.929819+00:00,httpbin,httpbin.status500,DOWN,500,236,http_error,
+2026-08-20T23:23:11.861215+00:00,httpbin,httpbin.status500,DOWN,500,10,http_error,
+2026-08-20T23:24:12.089077+00:00,httpbin,httpbin.status500,DOWN,500,187,http_error,
+2026-08-20T23:25:12.207624+00:00,httpbin,httpbin.status500,DOWN,500,244,http_error,
+2026-08-20T23:26:12.091123+00:00,httpbin,httpbin.status500,DOWN,500,27,http_error,
+2026-08-20T23:27:12.382683+00:00,httpbin,httpbin.status500,DOWN,500,243,http_error,
+2026-08-20T23:28:12.205190+00:00,httpbin,httpbin.status500,DOWN,500,10,http_error,
+2026-08-20T23:35:23.379366+00:00,httpbin,httpbin.status500,DOWN,500,273,http_error,
+2026-08-20T23:36:23.295358+00:00,httpbin,httpbin.status500,DOWN,500,14,http_error,

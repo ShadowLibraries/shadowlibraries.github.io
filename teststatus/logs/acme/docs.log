@@ -1,0 +1,13 @@
+# version: 2
+# schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+2026-08-20T23:16:27.859242+00:00,acme,acme.docs,DOWN,,,connection_refused,
+2026-08-20T23:22:14.855998+00:00,acme,acme.docs,DOWN,,,connection_refused,
+2026-08-20T23:23:11.907241+00:00,acme,acme.docs,DOWN,,,connection_refused,
+2026-08-20T23:24:12.013954+00:00,acme,acme.docs,DOWN,,,connection_refused,
+2026-08-20T23:25:12.092439+00:00,acme,acme.docs,DOWN,,,connection_refused,
+2026-08-20T23:26:12.099610+00:00,acme,acme.docs,DOWN,,,connection_refused,
+2026-08-20T23:27:12.225603+00:00,acme,acme.docs,DOWN,,,connection_refused,
+2026-08-20T23:28:12.305341+00:00,acme,acme.docs,DOWN,,,connection_refused,
+2026-08-20T23:35:29.297123+00:00,acme,acme.docs,DOWN,,,connection_refused,
+2026-08-20T23:36:23.358969+00:00,acme,acme.docs,DOWN,,,connection_refused,

@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta http-equiv="refresh" content="120">
+    <title>acme - FlatMonitor</title>
+    
+    <link rel="stylesheet" href="static/css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        
+<a href="index.html" class="back-link">← Back to Dashboard</a>
+
+
+
+<header>
+    <h1>acme</h1>
+    <p class="subtitle">
+        Status: <span class="status-badge DOWN">DOWN</span>
+    </p>
+</header>
+<div class="card" id="acme.www">
+    <div class="card-header">
+        <div class="domain-info">
+            
+            <a href="https://www.acme.com" class="card-title" target="_blank" rel="noopener noreferrer">www.acme.com</a>
+            
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <div class="log-links">
+                <button class="log-link" data-domain-id="acme.www" data-log-path="logs/acme/www.log" data-domain-url="www.acme.com" data-archive-links='[]' title="View recent logs">logs</button>
+            </div>
+            <span class="status-badge down">
+                DOWN
+            </span>
+        </div>
+    </div>
+
+    <!-- Expected vs Actual -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0.75rem 0; font-size: 0.8rem;">
+        <!-- Expected Configuration -->
+        <div style="background: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 0.75rem;">
+            <div style="color: #58a6ff; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Expected</div>
+            <div style="color: #8b949e; line-height: 1.5;">
+                
+                <div>Status: <span style="color: #c9d1d9;">200</span></div>
+                
+                
+                <div>Content: <span style="color: #c9d1d9; font-style: italic;">"Welcome"</span></div>
+                
+                
+                
+            </div>
+        </div>
+
+        <!-- Actual Results -->
+        <div style="background: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 0.75rem;">
+            <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
+            <div style="color: #8b949e; line-height: 1.5;">
+                
+                <div>Status: <span style="color: #c9d1d9;">200</span></div>
+                
+                
+                <div>Latency: <span style="color: #c9d1d9;">526ms</span></div>
+                
+                
+                
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #da3633; font-size: 0.75rem;">
+                    <strong>DOWN:</strong> 2+ checks failed.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <br><span>Latest: 2026-08-20T23:15:00+00:00 | DOWN | HTTP 200 | FailureType.CONTENT_MISMATCH</span>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                
+                <div style="margin-top: 0.5rem;">Cert: N/A</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline" data-log-path="logs/acme/www.log">
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:15:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:15:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:20:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:25:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:25:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:35:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:35:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:15:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:15:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:20:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:25:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:25:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:35:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:35:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:15:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:15:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:20:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:25:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:25:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:35:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:35:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:15:00+00:00" data-status="DOWN" data-http-status="200" data-latency="589" data-failure="FailureType.CONTENT_MISMATCH" title="2026-08-20T23:15:00+00:00 - DOWN | HTTP 200 | 589ms | content_mismatch"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:20:00+00:00" data-status="DOWN" data-http-status="200" data-latency="503" data-failure="FailureType.CONTENT_MISMATCH" title="2026-08-20T23:20:00+00:00 - DOWN | HTTP 200 | 503ms | content_mismatch"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:25:00+00:00" data-status="DOWN" data-http-status="200" data-latency="402" data-failure="FailureType.CONTENT_MISMATCH" title="2026-08-20T23:25:00+00:00 - DOWN | HTTP 200 | 402ms | content_mismatch"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:35:00+00:00" data-status="DOWN" data-http-status="200" data-latency="526" data-failure="FailureType.CONTENT_MISMATCH" title="2026-08-20T23:35:00+00:00 - DOWN | HTTP 200 | 526ms | content_mismatch"></span>
+    </div>
+
+    
+</div>
+<div class="card" id="acme.api">
+    <div class="card-header">
+        <div class="domain-info">
+            
+            <a href="https://api.acme.com/health" class="card-title" target="_blank" rel="noopener noreferrer">api.acme.com/health</a>
+            
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <div class="log-links">
+                <button class="log-link" data-domain-id="acme.api" data-log-path="logs/acme/api.log" data-domain-url="api.acme.com/health" data-archive-links='[]' title="View recent logs">logs</button>
+            </div>
+            <span class="status-badge down">
+                DOWN
+            </span>
+        </div>
+    </div>
+
+    <!-- Expected vs Actual -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0.75rem 0; font-size: 0.8rem;">
+        <!-- Expected Configuration -->
+        <div style="background: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 0.75rem;">
+            <div style="color: #58a6ff; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Expected</div>
+            <div style="color: #8b949e; line-height: 1.5;">
+                
+                <div>Status: <span style="color: #c9d1d9;">200</span></div>
+                
+                
+                
+                
+            </div>
+        </div>
+
+        <!-- Actual Results -->
+        <div style="background: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 0.75rem;">
+            <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
+            <div style="color: #8b949e; line-height: 1.5;">
+                
+                
+                
+                
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #da3633; font-size: 0.75rem;">
+                    <strong>DOWN:</strong> 2+ checks failed.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <br><span>Latest: 2026-08-20T23:15:00+00:00 | DOWN | FailureType.CONNECTION_REFUSED</span>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                
+                <div style="margin-top: 0.5rem;">Cert: N/A</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline" data-log-path="logs/acme/api.log">
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:15:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:15:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:20:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:25:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:25:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:35:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:35:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:15:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:15:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:20:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:25:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:25:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:35:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:35:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:15:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:15:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:20:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:25:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:25:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:35:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:35:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:15:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-08-20T23:15:00+00:00 - DOWN | connection_refused"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:20:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-08-20T23:20:00+00:00 - DOWN | connection_refused"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:25:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-08-20T23:25:00+00:00 - DOWN | connection_refused"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:35:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-08-20T23:35:00+00:00 - DOWN | connection_refused"></span>
+    </div>
+
+    
+</div>
+<div class="card" id="acme.docs">
+    <div class="card-header">
+        <div class="domain-info">
+            
+            <a href="https://docs.acme.com" class="card-title" target="_blank" rel="noopener noreferrer">docs.acme.com</a>
+            
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <div class="log-links">
+                <button class="log-link" data-domain-id="acme.docs" data-log-path="logs/acme/docs.log" data-domain-url="docs.acme.com" data-archive-links='[]' title="View recent logs">logs</button>
+            </div>
+            <span class="status-badge down">
+                DOWN
+            </span>
+        </div>
+    </div>
+
+    <!-- Expected vs Actual -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0.75rem 0; font-size: 0.8rem;">
+        <!-- Expected Configuration -->
+        <div style="background: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 0.75rem;">
+            <div style="color: #58a6ff; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Expected</div>
+            <div style="color: #8b949e; line-height: 1.5;">
+                
+                <div>Status: <span style="color: #c9d1d9;">200</span></div>
+                
+                
+                
+                
+            </div>
+        </div>
+
+        <!-- Actual Results -->
+        <div style="background: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 0.75rem;">
+            <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
+            <div style="color: #8b949e; line-height: 1.5;">
+                
+                
+                
+                
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #da3633; font-size: 0.75rem;">
+                    <strong>DOWN:</strong> 2+ checks failed.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <br><span>Latest: 2026-08-20T23:15:00+00:00 | DOWN | FailureType.CONNECTION_REFUSED</span>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                
+                <div style="margin-top: 0.5rem;">Cert: N/A</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline" data-log-path="logs/acme/docs.log">
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T19:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T19:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:15:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:15:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:20:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:25:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:25:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:35:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:35:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T20:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T20:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:15:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:15:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:20:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:25:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:25:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:35:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:35:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T21:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T21:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:15:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:15:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:20:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:25:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:25:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:35:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:35:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:40:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:40:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:45:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:45:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:50:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:50:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T22:55:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T22:55:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:00:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:00:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:05:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:05:00+00:00 - UNKNOWN"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:10:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:10:00+00:00 - UNKNOWN"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:15:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-08-20T23:15:00+00:00 - DOWN | connection_refused"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:20:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-08-20T23:20:00+00:00 - DOWN | connection_refused"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:25:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-08-20T23:25:00+00:00 - DOWN | connection_refused"></span>
+        
+        <span class="unknown" data-timestamp="2026-08-20T23:30:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-08-20T23:30:00+00:00 - UNKNOWN"></span>
+        
+        <span class="down" data-timestamp="2026-08-20T23:35:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-08-20T23:35:00+00:00 - DOWN | connection_refused"></span>
+    </div>
+
+    
+</div>
+
+<div class="legend">
+    <div class="legend-item" title="Site is accessible (UP) or behind expected bot protection (PROTECTED)">
+        <div class="legend-color up"></div>
+        <span>Up / Protected</span>
+    </div>
+    <div class="legend-item" title="1 check failed in 5-minute window">
+        <div class="legend-color degraded"></div>
+        <span>Degraded</span>
+    </div>
+    <div class="legend-item" title="2+ failures, unexpected response, or timeout">
+        <div class="legend-color down"></div>
+        <span>Down / Timeout</span>
+    </div>
+    <div class="legend-item" title="No recent check data">
+        <div class="legend-color unknown"></div>
+        <span>Unknown</span>
+    </div>
+</div>
+
+<div style="margin-top: 1rem; font-size: 0.75rem; color: #6e7681; line-height: 1.6;">
+    
+    <strong>How to read:</strong> Green = site is UP or behind expected protection (PROTECTED).
+    Yellow = 1 check failed in 5-minute window (DEGRADED).
+    Red = 2+ failures (DOWN), unexpected response, or timed out (TIMEOUT).
+    Gray = no recent data (UNKNOWN).
+    Timeline shows last 4 hours (newest right).
+    
+</div>
+
+<!-- Log Preview Modal -->
+<div id="logModal" class="log-modal">
+    <div class="log-modal-content">
+        <div class="log-modal-header">
+            <h3 id="logModalTitle">Recent Log Entries</h3>
+            <button class="log-modal-close" onclick="closeLogModal()">&times;</button>
+        </div>
+        <div class="log-modal-body">
+            <div id="logModalLoading" class="log-modal-loading">Loading...</div>
+            <div id="logModalError" class="log-modal-error" style="display: none;"></div>
+            <table id="logModalTable" class="log-modal-table" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Status</th>
+                        <th>HTTP</th>
+                        <th>Latency</th>
+                        <th>Reason</th>
+                    </tr>
+                </thead>
+                <tbody id="logModalTableBody">
+                </tbody>
+            </table>
+        </div>
+        <div class="log-modal-footer">
+            <a id="logModalFullLog" href="#" target="_blank" rel="noopener noreferrer" class="log-modal-btn">View full log</a>
+            <div id="logModalArchives" class="log-modal-archives" style="display: none;">
+                <span class="log-modal-archives-label">Archives:</span>
+                <div id="logModalArchivesList" class="log-modal-archives-list"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <div class="footer">
+            
+            <p>Generated at 2026-08-20T23:36:24.282417+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
+        </div>
+    </div>
+    
+<script>
+let currentArchiveLinks = [];
+
+// Add event listener for log link buttons
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.log-link').forEach(button => {
+        button.addEventListener('click', function() {
+            const domainId = this.dataset.domainId;
+            const logPath = this.dataset.logPath;
+            const domainUrl = this.dataset.domainUrl;
+            const archiveLinks = JSON.parse(this.dataset.archiveLinks || '[]');
+            openLogModal(domainId, logPath, domainUrl, archiveLinks);
+        });
+    });
+});
+
+function openLogModal(domainId, logPath, domainUrl, archiveLinks) {
+    const modal = document.getElementById('logModal');
+    const title = document.getElementById('logModalTitle');
+    const loading = document.getElementById('logModalLoading');
+    const error = document.getElementById('logModalError');
+    const table = document.getElementById('logModalTable');
+    const tbody = document.getElementById('logModalTableBody');
+    const fullLogLink = document.getElementById('logModalFullLog');
+    const archivesSection = document.getElementById('logModalArchives');
+    const archivesList = document.getElementById('logModalArchivesList');
+
+    // Store archive links for potential retry
+    currentArchiveLinks = archiveLinks || [];
+
+    title.textContent = 'Recent Log Entries - ' + domainUrl;
+    loading.style.display = 'block';
+    error.style.display = 'none';
+    table.style.display = 'none';
+    fullLogLink.href = logPath;
+
+    // Populate archive links
+    if (currentArchiveLinks.length > 0) {
+        archivesList.innerHTML = currentArchiveLinks.map(archive =>
+            `<a href="${archive.url}" target="_blank" rel="noopener noreferrer" class="log-modal-archive-link">${archive.date}</a>`
+        ).join('');
+        archivesSection.style.display = 'block';
+    } else {
+        archivesSection.style.display = 'none';
+    }
+
+    modal.style.display = 'flex';
+
+    fetch(logPath)
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to load log');
+            return response.text();
+        })
+        .then(text => {
+            // Validate log format version
+            const versionLine = text.split('\n').find(line => line.startsWith('# version:'));
+            if (!versionLine) {
+                throw new Error('Unsupported log format: no version header found');
+            }
+            const version = parseInt(versionLine.split(':')[1].trim());
+            if (version !== 2) {
+                throw new Error(`Unsupported log format version: ${version}. Expected version 2.`);
+            }
+            
+            const lines = text.trim().split('\n').filter(line => line.length > 0 && !line.startsWith('#'));
+            if (lines.length === 0) {
+                throw new Error('No log data available');
+            }
+
+            // Skip CSV header row (first row after comments)
+            const dataLines = lines.slice(1);
+            const recentLines = dataLines.slice(-12);
+            
+            // Format timestamp as time ago
+            const formatTimeAgo = (timestamp) => {
+                const date = new Date(timestamp);
+                if (isNaN(date.getTime())) return timestamp;
+                const now = new Date();
+                const diff = Math.floor((now - date) / 1000);
+                if (diff < 60) return diff + 's ago';
+                if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
+                if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+                return Math.floor(diff / 86400) + 'd ago';
+            };
+            
+            tbody.innerHTML = '';
+            recentLines.forEach(line => {
+                const parts = line.split(',');
+                if (parts.length >= 5) {
+                    const timestamp = parts[0];
+                    const timeAgo = formatTimeAgo(timestamp);
+                    const status = parts[3];
+                    const httpStatus = parts[4];
+                    const latency = parts[5] ? parts[5] + 'ms' : '';
+                    const failure = parts[6] || '';
+
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${timeAgo}</td>
+                        <td><span class="log-modal-status ${status.toLowerCase()}">${status}</span></td>
+                        <td>${httpStatus}</td>
+                        <td>${latency}</td>
+                        <td>${failure}</td>
+                    `;
+                    tbody.appendChild(tr);
+                }
+            });
+
+            loading.style.display = 'none';
+            table.style.display = 'table';
+        })
+        .catch(err => {
+            loading.style.display = 'none';
+            error.style.display = 'block';
+
+            // Check if this is a CORS error
+            const isCorsError = err.message.includes('Failed to fetch') ||
+                                err.message.includes('NetworkError') ||
+                                err.message.includes('CORS');
+
+            if (isCorsError || err.name === 'TypeError') {
+                error.innerHTML = `
+                    <div style="margin-bottom: 0.5rem;">Unable to preview logs due to browser security (CORS).</div>
+                    <div style="font-size: 0.85rem; color: #8b949e;">
+                        This happens when viewing the dashboard locally. Use the "View full log" button below to access logs directly.
+                    </div>
+                `;
+            } else {
+                error.textContent = 'Error: ' + err.message;
+            }
+        });
+}
+
+function closeLogModal() {
+    const modal = document.getElementById('logModal');
+    modal.style.display = 'none';
+}
+
+// Close modal on ESC key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeLogModal();
+    }
+});
+
+// Close modal when clicking outside
+window.onclick = function(event) {
+    const modal = document.getElementById('logModal');
+    if (event.target === modal) {
+        closeLogModal();
+    }
+}
+</script>
+
+    <script>
+        // Localize timestamps to browser timezone with AM/PM format
+        document.addEventListener('DOMContentLoaded', function() {
+            const formatLocalTime = (isoString) => {
+                if (!isoString) return '';
+                try {
+                    const date = new Date(isoString);
+                    if (isNaN(date.getTime())) return '';
+                    return date.toLocaleTimeString(undefined, {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        hour12: true
+                    }).toLowerCase().replace(/\s/g, ''); // "7:30 PM" -> "07:30pm"
+                } catch (e) {
+                    return '';
+                }
+            };
+
+            const localizeTimestamp = (isoString) => {
+                if (!isoString || isoString === 'never' || isoString === 'unknown') return isoString;
+                try {
+                    const date = new Date(isoString);
+                    if (isNaN(date.getTime())) return isoString;
+                    return date.toLocaleString(undefined, {
+                        month: 'short',
+                        day: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        second: '2-digit',
+                        hour12: true
+                    });
+                } catch (e) {
+                    return isoString;
+                }
+            };
+
+            // Convert footer generation timestamp
+            // WARNING: Use innerHTML not textContent to preserve footer links
+            const footerTime = document.querySelector('.footer p');
+            if (footerTime) {
+                const html = footerTime.innerHTML;
+                const match = html.match(/Generated at ([^|]+)/);
+                if (match) {
+                    const localTime = localizeTimestamp(match[1].trim());
+                    footerTime.innerHTML = html.replace(match[1], ' ' + localTime + ' ');
+                }
+            }
+
+            // Convert timeline bucket timestamps
+            document.querySelectorAll('[data-timestamp]').forEach(span => {
+                const isoTime = span.getAttribute('data-timestamp');
+                const localTime = formatLocalTime(isoTime);
+                const status = span.getAttribute('data-status');
+                const httpStatus = span.getAttribute('data-http-status');
+                const latency = span.getAttribute('data-latency');
+                const failure = span.getAttribute('data-failure');
+
+                if (localTime && status) {
+                    let tooltip = localTime + ' - ' + status;
+                    if (httpStatus) tooltip += ' | HTTP ' + httpStatus;
+                    if (latency) tooltip += ' | ' + latency + 'ms';
+                    if (failure) tooltip += ' | ' + failure;
+                    span.setAttribute('title', tooltip);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,874 @@
+/* ============================================
+   CSS VARIABLES - Design System Colors
+   ============================================ */
+:root {
+    /* Status Colors */
+    --color-up: #238636;
+    --color-down: #da3633;
+    --color-warning: #d29922;
+    --color-unknown: #6e7681;
+
+    /* Background Colors */
+    --bg-page: #0d1117;
+    --bg-card: #161b22;
+    --bg-hover: #21262d;
+
+    /* Border Colors */
+    --border-default: #30363d;
+    --border-subtle: #21262d;
+
+    /* Text Colors */
+    --text-primary: #f0f6fc;
+    --text-secondary: #c9d1d9;
+    --text-muted: #8b949e;
+    --text-dim: #6e7681;
+    --text-link: #58a6ff;
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--bg-page);
+    color: var(--text-secondary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+h1 {
+    color: var(--text-primary);
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+h2 {
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+/* ============================================
+   HEADER & FOOTER
+   ============================================ */
+header {
+    border-bottom: 1px solid var(--border-default);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-default);
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.footer-links a:hover {
+    color: var(--text-link);
+    text-decoration: underline;
+}
+
+.back-link {
+    color: var(--text-link);
+    text-decoration: none;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   ANNOUNCEMENT BANNER
+   ============================================ */
+.announcement {
+    background: var(--color-warning);
+    color: #000;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.announcement p {
+    margin: 0;
+}
+
+/* ============================================
+   STATUS BADGES
+   ============================================ */
+.status-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.status-badge.up { background: var(--color-up); color: #fff; }
+.status-badge.down { background: var(--color-down); color: #fff; }
+.status-badge.degraded { background: var(--color-warning); color: #000; }
+.status-badge.bot { background: var(--color-warning); color: #000; }
+.status-badge.protected { background: var(--color-up); color: #fff; }
+.status-badge.unknown { background: var(--color-unknown); color: #fff; }
+
+/* Compact status badge for domain lists */
+.status-badge.compact {
+    font-size: 0.7rem;
+    padding: 0.125rem 0.4rem;
+    cursor: pointer;
+    min-width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Certificate warning icon */
+.cert-warning {
+    margin-left: 0.25rem;
+    color: #d29922;
+}
+
+/* ============================================
+   CARDS & CONTAINERS
+   ============================================ */
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.card-title {
+    color: var(--text-primary);
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.card-title:hover {
+    color: var(--text-link);
+}
+
+/* ============================================
+   SITE OVERVIEW (LEGACY)
+   ============================================ */
+.site-overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
+    border-radius: 8px;
+}
+
+.site-overview-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.site-overview-item a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.site-overview-item a:hover {
+    color: var(--text-link);
+    text-decoration: underline;
+}
+
+/* ============================================
+   SUMMARY BARS
+   ============================================ */
+.site-summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+    padding: 0.375rem 0;
+    border-bottom: 1px solid var(--border-default);
+}
+
+.summary-item {
+    color: var(--text-muted);
+}
+
+.status-up { color: #3fb950; font-weight: 600; }
+.status-down { color: #f85149; font-weight: 600; }
+.status-protected { color: #3fb950; font-weight: 600; }
+.status-bot { color: var(--color-warning); font-weight: 600; }
+.status-timeout { color: #f85149; font-weight: 600; }
+.status-unknown { color: var(--text-muted); font-weight: 600; }
+
+/* ============================================
+   TIMELINES
+   ============================================ */
+.timeline, .mini-timeline {
+    display: flex;
+    gap: 1px;
+    overflow: hidden;
+}
+
+.timeline {
+    height: 24px;
+    margin-top: 1rem;
+}
+
+.mini-timeline {
+    height: 18px;
+    margin: 0.5rem 0;
+    gap: 2px;
+}
+
+.timeline span, .mini-timeline span {
+    flex: 1;
+    min-width: 6px;
+    border-radius: 2px;
+    cursor: help;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.timeline span:hover, .mini-timeline span:hover {
+    z-index: 10;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.timeline span:hover {
+    transform: scaleY(1.5);
+}
+
+.mini-timeline span:hover {
+    transform: scaleY(1.3);
+}
+
+/* Timeline Status Colors - consolidated for all timeline variants */
+.timeline span.up, .mini-timeline span.up, .mini-timeline-inline span.up,
+.domain-item-dense .mini-timeline-inline span.up { background: var(--color-up); }
+
+.timeline span.down, .mini-timeline span.down, .mini-timeline-inline span.down,
+.domain-item-dense .mini-timeline-inline span.down { background: var(--color-down); }
+
+.timeline span.degraded, .mini-timeline span.degraded, .mini-timeline-inline span.degraded,
+.domain-item-dense .mini-timeline-inline span.degraded { background: var(--color-warning); }
+
+.timeline span.bot, .mini-timeline span.bot, .mini-timeline-inline span.bot,
+.domain-item-dense .mini-timeline-inline span.bot { background: var(--color-warning); }
+
+.timeline span.protected, .mini-timeline span.protected, .mini-timeline-inline span.protected,
+.domain-item-dense .mini-timeline-inline span.protected { background: var(--color-up); }
+
+.timeline span.unknown, .mini-timeline span.unknown, .mini-timeline-inline span.unknown,
+.domain-item-dense .mini-timeline-inline span.unknown { background: var(--border-default); }
+
+/* Site Grid Layout - Dense horizontal arrangement on desktop */
+.site-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+/* ============================================
+   SITE CARDS (Index Page Grid)
+   ============================================ */
+.site-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
+    border-radius: 6px;
+    padding: 0.75rem;
+}
+
+.site-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.site-card-title {
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.site-card-title:hover {
+    color: var(--text-link);
+}
+
+.site-mini-summary {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+.site-mini-summary .count {
+    font-weight: 600;
+}
+
+/* ============================================
+   DOMAIN LIST (Dense Layout)
+   ============================================ */
+.domain-list-dense {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.domain-item-dense {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--border-subtle);
+    font-size: 0.8rem;
+}
+
+.domain-item-dense:last-child {
+    border-bottom: none;
+}
+
+.domain-left-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.domain-item-dense .domain-link {
+    flex: 0 0 auto;
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.domain-item-dense .mini-timeline-inline {
+    display: flex;
+    gap: 2px;
+    height: 18px;
+    min-width: 140px;
+    max-width: 240px;
+    flex: 1 1 auto;
+}
+
+.domain-item-dense .mini-timeline-inline span {
+    flex: 1;
+    min-width: 3px;
+    border-radius: 2px;
+}
+
+.domain-item-dense .status-col {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    margin-left: auto;
+}
+
+/* Domain List Utilities */
+.domain-item-dense .latency-micro {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    min-width: 40px;
+    text-align: right;
+}
+
+.domain-item-dense .http-code {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    min-width: 30px;
+    text-align: center;
+    font-family: monospace;
+}
+
+/* ============================================
+   DOMAIN TABLE (Site Detail Page)
+   ============================================ */
+.domain-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    margin-top: 0.75rem;
+}
+
+.domain-table th,
+.domain-table td {
+    padding: 0.375rem 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-default);
+}
+
+.domain-table th {
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.domain-table tr:hover {
+    background: var(--bg-hover);
+}
+
+.domain-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Domain Table Variants */
+.domain-table.index-view th:nth-child(3),
+.domain-table.index-view td:nth-child(3),
+.domain-table.index-view th:nth-child(4),
+.domain-table.index-view td:nth-child(4),
+.domain-table.index-view td:nth-child(2) .latency {
+    display: none;
+}
+
+/* ============================================
+   DOMAIN LINKS
+   ============================================ */
+.domain-link {
+    color: var(--text-link);
+    text-decoration: none;
+}
+
+.domain-link:hover {
+    text-decoration: underline;
+}
+
+.domain-link-disabled {
+    color: var(--text-muted);
+    cursor: default;
+}
+
+.log-link {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.75rem;
+    padding: 0.125rem 0.375rem;
+    border-radius: 4px;
+    background: var(--bg-hover);
+    border: 1px solid var(--border-subtle);
+    transition: all 0.15s ease;
+}
+
+.log-link:hover {
+    color: var(--text-link);
+    border-color: var(--text-link);
+    text-decoration: none;
+}
+
+/* Archive log dropdown styles */
+.log-links {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.log-archive-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.log-archive-trigger {
+    color: var(--text-link);
+    font-size: 0.75rem;
+    cursor: pointer;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    border: 1px solid var(--border-default);
+    background: var(--bg-hover);
+    transition: all 0.15s ease;
+    margin-left: 0.25rem;
+}
+
+.log-archive-trigger:hover {
+    color: var(--text-link);
+    background: var(--bg-hover);
+}
+
+.log-archive-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
+    border-radius: 6px;
+    padding: 0.25rem 0;
+    min-width: 100px;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.log-archive-dropdown:hover .log-archive-menu {
+    display: block;
+}
+
+.log-archive-item {
+    display: block;
+    padding: 0.4rem 0.75rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+.log-archive-item:hover {
+    color: var(--text-link);
+    background: var(--bg-hover);
+}
+
+/* ============================================
+   CHECK ICONS & RESPONSE INFO
+   ============================================ */
+.response-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.check-icon {
+    font-size: 0.8rem;
+}
+
+.check-pass { color: var(--color-up); }
+.check-fail { color: var(--color-down); }
+.check-na { color: var(--text-dim); }
+
+.latency {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+/* ============================================
+   ROLE BADGES
+   ============================================ */
+.role-badge {
+    font-size: 0.625rem;
+    padding: 0.125rem 0.375rem;
+    border-radius: 4px;
+    background: var(--bg-hover);
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* ============================================
+   LEGEND
+   ============================================ */
+.legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+
+.legend-color.up, .legend-color.protected { background: var(--color-up); }
+.legend-color.down { background: var(--color-down); }
+.legend-color.degraded, .legend-color.bot { background: var(--color-warning); }
+.legend-color.unknown { background: var(--border-default); }
+
+/* ============================================
+   LOG PREVIEW MODAL
+   ============================================ */
+.log-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+}
+
+.log-modal-content {
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.log-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-default);
+}
+
+.log-modal-header h3 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.log-modal-close {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.log-modal-close:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+}
+
+.log-modal-body {
+    padding: 1rem;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.log-modal-loading {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 2rem;
+}
+
+.log-modal-error {
+    color: var(--color-down);
+    text-align: center;
+    padding: 1rem;
+}
+
+.log-modal-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+.log-modal-table th {
+    text-align: left;
+    padding: 0.5rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-default);
+}
+
+.log-modal-table td {
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+}
+
+.log-modal-table tr:last-child td {
+    border-bottom: none;
+}
+
+.log-modal-status {
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.log-modal-status.up { background: var(--color-up); color: #fff; }
+.log-modal-status.down { background: var(--color-down); color: #fff; }
+.log-modal-status.degraded { background: var(--color-warning); color: #000; }
+.log-modal-status.timeout { background: var(--color-down); color: #fff; }
+.log-modal-status.protected { background: var(--color-up); color: #fff; }
+.log-modal-status.unknown { background: var(--color-unknown); color: #fff; }
+
+.log-modal-footer {
+    padding: 1rem;
+    border-top: 1px solid var(--border-default);
+    text-align: center;
+}
+
+.log-modal-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--bg-hover);
+    border: 1px solid var(--border-default);
+    border-radius: 6px;
+    color: var(--text-link);
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: all 0.15s ease;
+}
+
+.log-modal-btn:hover {
+    background: var(--border-default);
+    text-decoration: none;
+}
+
+.log-modal-archives {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border-subtle);
+    text-align: left;
+}
+
+.log-modal-archives-label {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-right: 0.5rem;
+}
+
+.log-modal-archives-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.log-modal-archive-link {
+    color: var(--text-link);
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 0.125rem 0.375rem;
+    border-radius: 4px;
+    background: var(--bg-hover);
+}
+
+.log-modal-archive-link:hover {
+    background: var(--border-default);
+    text-decoration: none;
+}
+
+/* ============================================
+   RESPONSIVE STYLES
+   ============================================ */
+@media (max-width: 900px) {
+    .site-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0.75rem;
+    }
+
+    .card {
+        padding: 0.75rem;
+        margin-bottom: 0.5rem;
+        border-radius: 6px;
+    }
+
+    .card-header {
+        margin-bottom: 0.5rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .timeline {
+        height: 16px;
+    }
+
+    .site-summary {
+        gap: 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .domain-table th,
+    .domain-table td {
+        padding: 0.25rem 0.375rem;
+    }
+
+    .domain-link, .domain-link-disabled {
+        font-size: 0.8rem;
+        max-width: 120px;
+    }
+
+    .legend {
+        gap: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    /* Hide cert expiry column on very small screens */
+    .domain-table th:nth-child(4),
+    .domain-table td:nth-child(4) {
+        display: none;
+    }
+}

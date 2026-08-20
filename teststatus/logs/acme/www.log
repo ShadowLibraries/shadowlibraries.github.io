@@ -1,0 +1,13 @@
+# version: 2
+# schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+2026-08-20T23:16:22.292418+00:00,acme,acme.www,DOWN,200,589,content_mismatch,
+2026-08-20T23:22:12.235171+00:00,acme,acme.www,DOWN,200,541,content_mismatch,
+2026-08-20T23:23:12.293924+00:00,acme,acme.www,DOWN,200,450,content_mismatch,
+2026-08-20T23:24:12.396493+00:00,acme,acme.www,DOWN,200,503,content_mismatch,
+2026-08-20T23:25:12.519084+00:00,acme,acme.www,DOWN,200,563,content_mismatch,
+2026-08-20T23:26:12.485417+00:00,acme,acme.www,DOWN,200,429,content_mismatch,
+2026-08-20T23:27:12.676027+00:00,acme,acme.www,DOWN,200,549,content_mismatch,
+2026-08-20T23:28:12.590346+00:00,acme,acme.www,DOWN,200,402,content_mismatch,
+2026-08-20T23:35:23.688253+00:00,acme,acme.www,DOWN,200,586,content_mismatch,
+2026-08-20T23:36:23.797538+00:00,acme,acme.www,DOWN,200,526,content_mismatch,
