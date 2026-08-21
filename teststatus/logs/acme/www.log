@@ -416,3 +416,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-21T03:06:52.228515+00:00,acme,acme.www,DOWN,200,604,content_mismatch,
 2026-08-21T03:07:51.629428+00:00,acme,acme.www,DOWN,200,503,content_mismatch,
 2026-08-21T03:07:52.551398+00:00,acme,acme.www,DOWN,200,551,content_mismatch,
+2026-08-21T03:08:51.882023+00:00,acme,acme.www,DOWN,200,475,content_mismatch,
+2026-08-21T03:08:53.001528+00:00,acme,acme.www,DOWN,200,568,content_mismatch,
+2026-08-21T03:09:52.512812+00:00,acme,acme.www,DOWN,200,545,content_mismatch,
+2026-08-21T03:09:53.121701+00:00,acme,acme.www,DOWN,200,530,content_mismatch,
