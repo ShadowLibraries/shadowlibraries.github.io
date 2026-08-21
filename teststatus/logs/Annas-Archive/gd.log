@@ -2,3 +2,7 @@
 # schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 2026-08-21T01:45:27.525348+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,742,,DDoS-Guard
+2026-08-21T01:50:27.588806+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,671,,DDoS-Guard
+2026-08-21T01:52:31.148320+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,2180,,DDoS-Guard
+2026-08-21T01:53:30.718812+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1625,,DDoS-Guard
+2026-08-21T01:54:31.008835+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1847,,DDoS-Guard
