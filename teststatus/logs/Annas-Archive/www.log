@@ -1,0 +1,17 @@
+# version: 2
+# schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+2026-08-20T23:51:22.839342+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,561,,DDoS-Guard
+2026-08-20T23:52:22.850768+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,526,,DDoS-Guard
+2026-08-20T23:53:22.867691+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,535,,DDoS-Guard
+2026-08-20T23:54:23.239311+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,824,,DDoS-Guard
+2026-08-20T23:55:23.338080+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,786,,DDoS-Guard
+2026-08-20T23:56:23.175340+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,519,,DDoS-Guard
+2026-08-20T23:57:23.665535+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,958,,DDoS-Guard
+2026-08-21T00:14:11.844315+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,596,,DDoS-Guard
+2026-08-21T00:15:04.232029+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,1038,,DDoS-Guard
+2026-08-21T00:15:12.228284+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,804,,DDoS-Guard
+2026-08-21T00:16:04.057318+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,677,,DDoS-Guard
+2026-08-21T00:16:11.883177+00:00,Annas-Archive,Annas-Archive.www,DOWN,502,590,http_error,
+2026-08-21T00:17:04.185301+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,634,,DDoS-Guard
+2026-08-21T00:17:12.291300+00:00,Annas-Archive,Annas-Archive.www,PROTECTED,200,628,,DDoS-Guard
