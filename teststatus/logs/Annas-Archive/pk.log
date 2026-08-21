@@ -1,0 +1,4 @@
+# version: 2
+# schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+2026-08-21T01:45:31.168603+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,4345,,DDoS-Guard
