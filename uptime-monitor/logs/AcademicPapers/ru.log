@@ -1312,3 +1312,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-22T23:06:57.318068+00:00,AcademicPapers,AcademicPapers.ru,PROTECTED,,,,connection-blocked
 2026-08-22T23:07:57.204147+00:00,AcademicPapers,AcademicPapers.ru,PROTECTED,,,,connection-blocked
 2026-08-22T23:08:57.735415+00:00,AcademicPapers,AcademicPapers.ru,PROTECTED,,,,connection-blocked
+2026-08-22T23:10:18.376010+00:00,AcademicPapers,AcademicPapers.ru,TIMEOUT,,,timeout,
+2026-08-22T23:10:58.703557+00:00,AcademicPapers,AcademicPapers.ru,PROTECTED,,,,connection-blocked
+2026-08-22T23:12:18.608215+00:00,AcademicPapers,AcademicPapers.ru,TIMEOUT,,,timeout,
+2026-08-22T23:12:59.253955+00:00,AcademicPapers,AcademicPapers.ru,PROTECTED,,,,connection-blocked
+2026-08-22T23:13:59.986498+00:00,AcademicPapers,AcademicPapers.ru,PROTECTED,,,,connection-blocked
