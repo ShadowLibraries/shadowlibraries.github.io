@@ -1,0 +1,4 @@
+# version: 2
+# schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+2026-08-22T01:04:19.391457+00:00,LibGen,LibGen.la,PROTECTED,200,1251,,Cloudflare
