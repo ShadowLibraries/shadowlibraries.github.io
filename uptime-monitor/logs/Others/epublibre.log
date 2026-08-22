@@ -2,3 +2,8 @@
 # schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 2026-08-22T01:04:20.315328+00:00,Others,Others.epublibre,UP,200,714,,
+2026-08-22T01:05:20.585142+00:00,Others,Others.epublibre,UP,200,682,,
+2026-08-22T01:06:20.886863+00:00,Others,Others.epublibre,UP,200,570,,
+2026-08-22T01:07:21.380876+00:00,Others,Others.epublibre,UP,200,632,,
+2026-08-22T01:08:41.473084+00:00,Others,Others.epublibre,DEGRADED,200,20086,latency_high,
+2026-08-22T01:09:21.911578+00:00,Others,Others.epublibre,UP,200,558,,

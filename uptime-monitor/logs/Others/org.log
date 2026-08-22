@@ -2,3 +2,8 @@
 # schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 2026-08-22T01:04:19.733414+00:00,Others,Others.org,UP,200,733,,
+2026-08-22T01:05:20.480372+00:00,Others,Others.org,UP,200,598,,
+2026-08-22T01:06:20.880345+00:00,Others,Others.org,UP,200,684,,
+2026-08-22T01:07:21.206091+00:00,Others,Others.org,UP,200,652,,
+2026-08-22T01:08:21.704247+00:00,Others,Others.org,UP,200,543,,
+2026-08-22T01:09:21.830156+00:00,Others,Others.org,UP,200,612,,

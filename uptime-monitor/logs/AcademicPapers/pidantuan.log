@@ -2,3 +2,8 @@
 # schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 2026-08-22T01:04:19.117063+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,646,,Cloudflare
+2026-08-22T01:05:20.137922+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,601,,Cloudflare
+2026-08-22T01:06:20.393889+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,575,,Cloudflare
+2026-08-22T01:07:20.573399+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,393,,Cloudflare
+2026-08-22T01:08:21.141329+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,540,,Cloudflare
+2026-08-22T01:09:21.566669+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,682,,Cloudflare

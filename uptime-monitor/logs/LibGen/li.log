@@ -2,3 +2,8 @@
 # schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 2026-08-22T01:04:18.731475+00:00,LibGen,LibGen.li,UP,200,737,,
+2026-08-22T01:05:19.695300+00:00,LibGen,LibGen.li,UP,200,780,,
+2026-08-22T01:06:19.603096+00:00,LibGen,LibGen.li,DOWN,,,connection_refused,
+2026-08-22T01:07:20.551240+00:00,LibGen,LibGen.li,UP,200,695,,
+2026-08-22T01:08:21.329776+00:00,LibGen,LibGen.li,UP,200,680,,
+2026-08-22T01:09:21.244003+00:00,LibGen,LibGen.li,UP,200,585,,

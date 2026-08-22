@@ -2,3 +2,8 @@
 # schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 2026-08-22T01:04:19.158692+00:00,Others,Others.co,PROTECTED,200,349,,Cloudflare
+2026-08-22T01:05:20.025606+00:00,Others,Others.co,PROTECTED,200,240,,Cloudflare
+2026-08-22T01:06:20.311984+00:00,Others,Others.co,PROTECTED,200,178,,Cloudflare
+2026-08-22T01:07:20.852972+00:00,Others,Others.co,PROTECTED,200,225,,Cloudflare
+2026-08-22T01:08:21.439929+00:00,Others,Others.co,PROTECTED,200,194,,Cloudflare
+2026-08-22T01:09:21.379541+00:00,Others,Others.co,PROTECTED,200,203,,Cloudflare

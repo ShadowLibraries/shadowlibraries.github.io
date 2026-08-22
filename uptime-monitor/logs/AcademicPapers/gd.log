@@ -2,3 +2,8 @@
 # schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 2026-08-22T01:04:19.121629+00:00,AcademicPapers,AcademicPapers.gd,PROTECTED,200,494,,DDoS-Guard
+2026-08-22T01:05:20.118120+00:00,AcademicPapers,AcademicPapers.gd,PROTECTED,200,507,,DDoS-Guard
+2026-08-22T01:06:23.019044+00:00,AcademicPapers,AcademicPapers.gd,PROTECTED,200,3156,,DDoS-Guard
+2026-08-22T01:07:22.871864+00:00,AcademicPapers,AcademicPapers.gd,PROTECTED,200,2441,,DDoS-Guard
+2026-08-22T01:08:21.438561+00:00,AcademicPapers,AcademicPapers.gd,PROTECTED,200,582,,DDoS-Guard
+2026-08-22T01:09:21.614711+00:00,AcademicPapers,AcademicPapers.gd,PROTECTED,200,659,,DDoS-Guard

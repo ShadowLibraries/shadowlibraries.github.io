@@ -2,3 +2,5 @@
 # schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 2026-08-22T01:04:18.159480+00:00,AcademicPapers,AcademicPapers.nexus,PROTECTED,200,161,,Cloudflare
+2026-08-22T01:05:19.504827+00:00,AcademicPapers,AcademicPapers.nexus,PROTECTED,200,169,,Cloudflare
+2026-08-22T01:09:29.831119+00:00,AcademicPapers,AcademicPapers.nexus,PROTECTED,200,106,,Cloudflare
