@@ -1303,3 +1303,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-22T22:57:52.140655+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,,,,connection-blocked
 2026-08-22T22:58:52.966417+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,,,,connection-blocked
 2026-08-22T22:59:52.995876+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,,,,connection-blocked
+2026-08-22T23:01:12.942839+00:00,AcademicPapers,AcademicPapers.st,TIMEOUT,,,timeout,
+2026-08-22T23:02:13.000480+00:00,AcademicPapers,AcademicPapers.st,TIMEOUT,,,timeout,
+2026-08-22T23:03:13.959777+00:00,AcademicPapers,AcademicPapers.st,TIMEOUT,,,timeout,
+2026-08-22T23:04:14.917771+00:00,AcademicPapers,AcademicPapers.st,TIMEOUT,,,timeout,
