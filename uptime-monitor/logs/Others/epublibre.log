@@ -763,3 +763,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-22T13:51:40.777451+00:00,Others,Others.epublibre,UP,200,2720,,
 2026-08-22T13:52:42.363513+00:00,Others,Others.epublibre,DEGRADED,200,3319,latency_high,
 2026-08-22T13:53:44.365790+00:00,Others,Others.epublibre,DEGRADED,200,4609,latency_high,
+2026-08-22T13:54:46.088341+00:00,Others,Others.epublibre,DEGRADED,200,5470,latency_high,
+2026-08-22T13:55:42.903456+00:00,Others,Others.epublibre,UP,200,858,,
+2026-08-22T13:56:43.845011+00:00,Others,Others.epublibre,UP,200,1223,,
+2026-08-22T13:57:43.771638+00:00,Others,Others.epublibre,UP,200,404,,
+2026-08-22T13:58:48.146210+00:00,Others,Others.epublibre,DEGRADED,200,3717,latency_high,
