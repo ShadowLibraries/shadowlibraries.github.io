@@ -1,0 +1,8 @@
+# version: 2
+# schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
+2026-08-23T03:20:06.403859+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,460,,DDoS-Guard
+2026-08-23T03:21:06.666541+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,896,,DDoS-Guard
+2026-08-23T03:22:06.651282+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,385,,DDoS-Guard
+2026-08-23T03:23:07.442980+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,416,,DDoS-Guard
+2026-08-23T03:24:08.337565+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,427,,DDoS-Guard
