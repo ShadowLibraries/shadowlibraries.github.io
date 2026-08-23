@@ -1,6 +1,3 @@
 # version: 2
 # schema: timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
 timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,protection_type
-2026-08-21T01:39:58.709353+00:00,pk,pk.Annas-Archive,PROTECTED,200,1370,,DDoS-Guard
-2026-08-21T01:40:01.986435+00:00,pk,pk.Annas-Archive,PROTECTED,200,568,,DDoS-Guard
-2026-08-21T01:40:33.644531+00:00,pk,pk.Annas-Archive,PROTECTED,200,1913,,DDoS-Guard
