@@ -20,7 +20,7 @@
 <header>
     <h1>LibGen</h1>
     <p class="subtitle">
-        Status: <span class="status-badge DOWN">DOWN</span>
+        Status: <span class="status-badge DEGRADED">DEGRADED</span>
     </p>
 </header>
 <div class="card" id="LibGen.li">
@@ -34,8 +34,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="LibGen.li" data-log-path="logs/LibGen/li.log" data-domain-url="libgen.li" data-archive-links='[{"date": "2026-08", "url": "logs/archive/2026-08/LibGen/li.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge down">
-                DOWN
+            <span class="status-badge degraded">
+                DEGRADED
             </span>
         </div>
     </div>
@@ -60,16 +60,15 @@
             <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
             <div style="color: #8b949e; line-height: 1.5;">
                 
-                <div>Status: <span style="color: #c9d1d9;">200</span></div>
+                <div>Status: <span style="color: #c9d1d9;">500</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">651ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">631ms</span></div>
                 
                 
                 
-                
-                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #da3633; font-size: 0.75rem;">
-                    <strong>DOWN:</strong> 2+ checks failed.
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
+                    <strong>DEGRADED:</strong> 1 check failed.
                     
                     
                     
@@ -119,10 +118,11 @@
                     
                     
                     
+                    <br><span style="color: #da3633;">Latest: 2026-08-24T02:05:00+00:00 | DOWN | HTTP 200</span>
                     
-                    <br><span>Latest: 2026-08-24T02:05:00+00:00 | DOWN | HTTP 200</span>
                     
                 </div>
+                
                 
                 <div style="margin-top: 0.5rem;">Cert: Nov 11 (79d) ✓</div>
             </div>
@@ -130,8 +130,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/li.log">
-        
-        <span class="up" data-timestamp="2026-08-23T22:10:00+00:00" data-status="UP" data-http-status="200" data-latency="698" data-failure="" title="2026-08-23T22:10:00+00:00 - UP | HTTP 200 | 698ms"></span>
         
         <span class="up" data-timestamp="2026-08-23T22:15:00+00:00" data-status="UP" data-http-status="200" data-latency="265" data-failure="" title="2026-08-23T22:15:00+00:00 - UP | HTTP 200 | 265ms"></span>
         
@@ -226,6 +224,8 @@
         <span class="degraded" data-timestamp="2026-08-24T02:00:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="704" data-failure="" title="2026-08-24T02:00:00+00:00 - DEGRADED | HTTP 200 | 704ms"></span>
         
         <span class="down" data-timestamp="2026-08-24T02:05:00+00:00" data-status="DOWN" data-http-status="200" data-latency="651" data-failure="" title="2026-08-24T02:05:00+00:00 - DOWN | HTTP 200 | 651ms"></span>
+        
+        <span class="degraded" data-timestamp="2026-08-24T02:10:00+00:00" data-status="DEGRADED" data-http-status="500" data-latency="631" data-failure="FailureType.HTTP_ERROR" title="2026-08-24T02:10:00+00:00 - DEGRADED | HTTP 500 | 631ms | http_error"></span>
     </div>
 
     
@@ -241,8 +241,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="LibGen.vg" data-log-path="logs/LibGen/vg.log" data-domain-url="libgen.vg" data-archive-links='[{"date": "2026-08", "url": "logs/archive/2026-08/LibGen/vg.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge up">
-                UP
+            <span class="status-badge degraded">
+                DEGRADED
             </span>
         </div>
     </div>
@@ -267,12 +267,65 @@
             <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
             <div style="color: #8b949e; line-height: 1.5;">
                 
-                <div>Status: <span style="color: #c9d1d9;">200</span></div>
+                <div>Status: <span style="color: #c9d1d9;">500</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">1342ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">1237ms</span></div>
                 
                 
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
+                    <strong>DEGRADED:</strong> 1 check failed.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
                 
                 
                 <div style="margin-top: 0.5rem;">Cert: Nov 11 (79d) ✓</div>
@@ -281,8 +334,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/vg.log">
-        
-        <span class="up" data-timestamp="2026-08-23T22:10:00+00:00" data-status="UP" data-http-status="200" data-latency="1249" data-failure="" title="2026-08-23T22:10:00+00:00 - UP | HTTP 200 | 1249ms"></span>
         
         <span class="up" data-timestamp="2026-08-23T22:15:00+00:00" data-status="UP" data-http-status="200" data-latency="1287" data-failure="" title="2026-08-23T22:15:00+00:00 - UP | HTTP 200 | 1287ms"></span>
         
@@ -376,7 +427,9 @@
         
         <span class="up" data-timestamp="2026-08-24T02:00:00+00:00" data-status="UP" data-http-status="200" data-latency="1339" data-failure="" title="2026-08-24T02:00:00+00:00 - UP | HTTP 200 | 1339ms"></span>
         
-        <span class="up" data-timestamp="2026-08-24T02:05:00+00:00" data-status="UP" data-http-status="200" data-latency="1342" data-failure="" title="2026-08-24T02:05:00+00:00 - UP | HTTP 200 | 1342ms"></span>
+        <span class="up" data-timestamp="2026-08-24T02:05:00+00:00" data-status="UP" data-http-status="200" data-latency="1861" data-failure="" title="2026-08-24T02:05:00+00:00 - UP | HTTP 200 | 1861ms"></span>
+        
+        <span class="degraded" data-timestamp="2026-08-24T02:10:00+00:00" data-status="DEGRADED" data-http-status="500" data-latency="1237" data-failure="FailureType.HTTP_ERROR" title="2026-08-24T02:10:00+00:00 - DEGRADED | HTTP 500 | 1237ms | http_error"></span>
     </div>
 
     
@@ -392,8 +445,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="LibGen.la" data-log-path="logs/LibGen/la.log" data-domain-url="libgen.la" data-archive-links='[{"date": "2026-08", "url": "logs/archive/2026-08/LibGen/la.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge protected">
-                PROTECTED
+            <span class="status-badge degraded">
+                DEGRADED
             </span>
         </div>
     </div>
@@ -418,12 +471,65 @@
             <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
             <div style="color: #8b949e; line-height: 1.5;">
                 
-                <div>Status: <span style="color: #c9d1d9;">200</span></div>
+                <div>Status: <span style="color: #c9d1d9;">500</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">343ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">275ms</span></div>
                 
                 
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
+                    <strong>DEGRADED:</strong> 1 check failed.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
                 
                 
                 <div style="margin-top: 0.5rem;">Cert: Oct 30 (67d) ✓</div>
@@ -432,8 +538,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/la.log">
-        
-        <span class="down" data-timestamp="2026-08-23T22:10:00+00:00" data-status="DOWN" data-http-status="200" data-latency="577" data-failure="" title="2026-08-23T22:10:00+00:00 - DOWN | HTTP 200 | 577ms"></span>
         
         <span class="protected" data-timestamp="2026-08-23T22:15:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="490" data-failure="" title="2026-08-23T22:15:00+00:00 - PROTECTED | HTTP 200 | 490ms"></span>
         
@@ -528,18 +632,10 @@
         <span class="protected" data-timestamp="2026-08-24T02:00:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="514" data-failure="" title="2026-08-24T02:00:00+00:00 - PROTECTED | HTTP 200 | 514ms"></span>
         
         <span class="protected" data-timestamp="2026-08-24T02:05:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="343" data-failure="" title="2026-08-24T02:05:00+00:00 - PROTECTED | HTTP 200 | 343ms"></span>
+        
+        <span class="degraded" data-timestamp="2026-08-24T02:10:00+00:00" data-status="DEGRADED" data-http-status="500" data-latency="275" data-failure="FailureType.HTTP_ERROR" title="2026-08-24T02:10:00+00:00 - DEGRADED | HTTP 500 | 275ms | http_error"></span>
     </div>
 
-    
-    <div style="margin-top: 0.75rem; padding: 0.5rem; background: #161b22; border: 1px solid #238636; border-radius: 4px; font-size: 0.75rem;">
-        <strong style="color: #3fb950;">Protected Site</strong>
-        
-        <span style="color: #58a6ff; margin-left: 0.5rem;">Cloudflare</span>
-        
-        <p style="margin: 0.25rem 0 0 0; color: #8b949e;">
-            Bot protection active.
-        </p>
-    </div>
     
 </div>
 <div class="card" id="LibGen.bz">
@@ -553,8 +649,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="LibGen.bz" data-log-path="logs/LibGen/bz.log" data-domain-url="libgen.bz" data-archive-links='[{"date": "2026-08", "url": "logs/archive/2026-08/LibGen/bz.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge up">
-                UP
+            <span class="status-badge degraded">
+                DEGRADED
             </span>
         </div>
     </div>
@@ -579,12 +675,65 @@
             <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
             <div style="color: #8b949e; line-height: 1.5;">
                 
-                <div>Status: <span style="color: #c9d1d9;">200</span></div>
+                <div>Status: <span style="color: #c9d1d9;">500</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">2811ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">625ms</span></div>
                 
                 
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
+                    <strong>DEGRADED:</strong> 1 check failed.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
                 
                 
                 <div style="margin-top: 0.5rem;">Cert: Nov 11 (79d) ✓</div>
@@ -593,8 +742,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/bz.log">
-        
-        <span class="degraded" data-timestamp="2026-08-23T22:10:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="696" data-failure="" title="2026-08-23T22:10:00+00:00 - DEGRADED | HTTP 200 | 696ms"></span>
         
         <span class="up" data-timestamp="2026-08-23T22:15:00+00:00" data-status="UP" data-http-status="200" data-latency="662" data-failure="" title="2026-08-23T22:15:00+00:00 - UP | HTTP 200 | 662ms"></span>
         
@@ -689,6 +836,8 @@
         <span class="up" data-timestamp="2026-08-24T02:00:00+00:00" data-status="UP" data-http-status="200" data-latency="707" data-failure="" title="2026-08-24T02:00:00+00:00 - UP | HTTP 200 | 707ms"></span>
         
         <span class="up" data-timestamp="2026-08-24T02:05:00+00:00" data-status="UP" data-http-status="200" data-latency="2811" data-failure="" title="2026-08-24T02:05:00+00:00 - UP | HTTP 200 | 2811ms"></span>
+        
+        <span class="degraded" data-timestamp="2026-08-24T02:10:00+00:00" data-status="DEGRADED" data-http-status="500" data-latency="625" data-failure="FailureType.HTTP_ERROR" title="2026-08-24T02:10:00+00:00 - DEGRADED | HTTP 500 | 625ms | http_error"></span>
     </div>
 
     
@@ -704,8 +853,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="LibGen.gl" data-log-path="logs/LibGen/gl.log" data-domain-url="libgen.gl" data-archive-links='[{"date": "2026-08", "url": "logs/archive/2026-08/LibGen/gl.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge protected">
-                PROTECTED
+            <span class="status-badge degraded">
+                DEGRADED
             </span>
         </div>
     </div>
@@ -730,12 +879,65 @@
             <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
             <div style="color: #8b949e; line-height: 1.5;">
                 
-                <div>Status: <span style="color: #c9d1d9;">200</span></div>
+                <div>Status: <span style="color: #c9d1d9;">500</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">1479ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">1148ms</span></div>
                 
                 
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
+                    <strong>DEGRADED:</strong> 1 check failed.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
                 
                 
                 <div style="margin-top: 0.5rem;">Cert: Oct 30 (67d) ✓</div>
@@ -744,8 +946,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/gl.log">
-        
-        <span class="protected" data-timestamp="2026-08-23T22:10:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="1889" data-failure="" title="2026-08-23T22:10:00+00:00 - PROTECTED | HTTP 200 | 1889ms"></span>
         
         <span class="protected" data-timestamp="2026-08-23T22:15:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="2709" data-failure="" title="2026-08-23T22:15:00+00:00 - PROTECTED | HTTP 200 | 2709ms"></span>
         
@@ -840,18 +1040,10 @@
         <span class="protected" data-timestamp="2026-08-24T02:00:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="903" data-failure="" title="2026-08-24T02:00:00+00:00 - PROTECTED | HTTP 200 | 903ms"></span>
         
         <span class="protected" data-timestamp="2026-08-24T02:05:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="1479" data-failure="" title="2026-08-24T02:05:00+00:00 - PROTECTED | HTTP 200 | 1479ms"></span>
+        
+        <span class="degraded" data-timestamp="2026-08-24T02:10:00+00:00" data-status="DEGRADED" data-http-status="500" data-latency="1148" data-failure="FailureType.HTTP_ERROR" title="2026-08-24T02:10:00+00:00 - DEGRADED | HTTP 500 | 1148ms | http_error"></span>
     </div>
 
-    
-    <div style="margin-top: 0.75rem; padding: 0.5rem; background: #161b22; border: 1px solid #238636; border-radius: 4px; font-size: 0.75rem;">
-        <strong style="color: #3fb950;">Protected Site</strong>
-        
-        <span style="color: #58a6ff; margin-left: 0.5rem;">Cloudflare</span>
-        
-        <p style="margin: 0.25rem 0 0 0; color: #8b949e;">
-            Bot protection active.
-        </p>
-    </div>
     
 </div>
 
@@ -930,7 +1122,7 @@
                 
             </div>
             
-            <p>Generated at 2026-08-24T02:09:52.781659+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
+            <p>Generated at 2026-08-24T02:14:53.610864+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
         </div>
     </div>
     
