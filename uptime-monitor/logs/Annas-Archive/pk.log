@@ -1430,3 +1430,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-24T22:21:42.499947+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,891,,DDoS-Guard
 2026-08-24T22:22:42.689057+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,790,,DDoS-Guard
 2026-08-24T22:23:43.583250+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,705,,DDoS-Guard
+2026-08-24T22:25:02.708668+00:00,Annas-Archive,Annas-Archive.pk,TIMEOUT,,,timeout,
+2026-08-24T22:25:44.497172+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,726,,DDoS-Guard
+2026-08-24T22:26:45.463611+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,961,,DDoS-Guard
+2026-08-24T22:27:53.189314+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,7582,,DDoS-Guard
+2026-08-24T22:28:47.324125+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,770,,DDoS-Guard
