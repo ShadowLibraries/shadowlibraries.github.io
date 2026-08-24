@@ -1793,3 +1793,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-24T02:12:52.734039+00:00,LibGen,LibGen.vg,UP,200,1924,,
 2026-08-24T02:13:53.494787+00:00,LibGen,LibGen.vg,UP,200,2389,,
 2026-08-24T02:14:52.837058+00:00,LibGen,LibGen.vg,DOWN,500,1237,http_error,
+2026-08-24T02:16:12.752171+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
+2026-08-24T02:17:12.983139+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
+2026-08-24T02:18:12.997897+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
+2026-08-24T02:18:55.503088+00:00,LibGen,LibGen.vg,UP,200,2130,,
+2026-08-24T02:19:54.099029+00:00,LibGen,LibGen.vg,UP,200,1293,,
