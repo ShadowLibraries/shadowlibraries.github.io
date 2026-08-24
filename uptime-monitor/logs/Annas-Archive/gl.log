@@ -1743,3 +1743,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-24T01:22:33.615291+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,1126,,DDoS-Guard
 2026-08-24T01:23:33.831546+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,1316,,DDoS-Guard
 2026-08-24T01:24:33.544898+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,965,,DDoS-Guard
+2026-08-24T01:25:33.012911+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,634,http_error,
+2026-08-24T01:26:34.571372+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,1385,,DDoS-Guard
+2026-08-24T01:27:38.319382+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,4219,,DDoS-Guard
+2026-08-24T01:28:35.243544+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,704,,DDoS-Guard
