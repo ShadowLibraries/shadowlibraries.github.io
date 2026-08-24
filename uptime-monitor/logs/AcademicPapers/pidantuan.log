@@ -654,3 +654,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-24T09:17:19.491139+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,471,,Cloudflare
 2026-08-24T09:18:20.585382+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,920,,Cloudflare
 2026-08-24T09:19:21.040728+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,719,,Cloudflare
+2026-08-24T09:20:22.193148+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,955,,Cloudflare
+2026-08-24T09:21:22.341480+00:00,AcademicPapers,AcademicPapers.pidantuan,DOWN,521,429,http_error,
+2026-08-24T09:22:41.915301+00:00,AcademicPapers,AcademicPapers.pidantuan,DOWN,522,19400,http_error,
+2026-08-24T09:23:23.657181+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,515,,Cloudflare
+2026-08-24T09:24:24.046914+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,259,,Cloudflare
