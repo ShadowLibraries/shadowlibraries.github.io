@@ -2822,3 +2822,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-25T21:42:28.067494+00:00,LibGen,LibGen.bz,UP,200,1089,,
 2026-08-25T21:43:28.643153+00:00,LibGen,LibGen.bz,UP,200,1033,,
 2026-08-25T21:44:28.910468+00:00,LibGen,LibGen.bz,UP,200,729,,
+2026-08-25T21:45:29.180815+00:00,LibGen,LibGen.bz,UP,200,843,,
+2026-08-25T21:46:32.833767+00:00,LibGen,LibGen.bz,DEGRADED,200,3787,latency_high,
+2026-08-25T21:47:30.157354+00:00,LibGen,LibGen.bz,UP,200,698,,
+2026-08-25T21:49:11.059035+00:00,LibGen,LibGen.bz,UP,200,761,,
