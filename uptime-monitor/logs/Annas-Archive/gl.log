@@ -2763,3 +2763,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-25T20:42:56.153940+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,842,,DDoS-Guard
 2026-08-25T20:43:56.621214+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,626,,DDoS-Guard
 2026-08-25T20:44:56.901752+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,680,,DDoS-Guard
+2026-08-25T20:45:57.228428+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,681,,DDoS-Guard
+2026-08-25T20:46:57.746139+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,692,,DDoS-Guard
+2026-08-25T20:47:58.136029+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,625,http_error,
+2026-08-25T20:48:58.926025+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,839,,DDoS-Guard
