@@ -2629,3 +2629,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-25T18:27:50.819000+00:00,Others,Others.epublibre,UP,200,147,,
 2026-08-25T18:28:51.548353+00:00,Others,Others.epublibre,UP,200,714,,
 2026-08-25T18:29:51.930023+00:00,Others,Others.epublibre,UP,200,588,,
+2026-08-25T18:30:52.493249+00:00,Others,Others.epublibre,UP,200,691,,
+2026-08-25T18:31:53.677471+00:00,Others,Others.epublibre,UP,200,779,,
+2026-08-25T18:32:59.510292+00:00,Others,Others.epublibre,DEGRADED,200,6313,latency_high,
+2026-08-25T18:33:53.979880+00:00,Others,Others.epublibre,UP,200,608,,
