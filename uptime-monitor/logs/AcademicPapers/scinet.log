@@ -2743,3 +2743,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-25T20:22:46.022577+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,320,,DDoS-Guard
 2026-08-25T20:23:46.772532+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,802,,DDoS-Guard
 2026-08-25T20:24:47.033399+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,414,,DDoS-Guard
+2026-08-25T20:25:47.917575+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,845,,DDoS-Guard
+2026-08-25T20:26:47.921488+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,,,connection_refused,
+2026-08-25T20:27:49.274215+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,796,,DDoS-Guard
+2026-08-25T20:28:49.604349+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,764,,DDoS-Guard
+2026-08-25T20:29:49.551095+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,444,,DDoS-Guard
