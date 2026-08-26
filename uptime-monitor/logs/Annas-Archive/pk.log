@@ -3958,3 +3958,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-26T17:22:59.125612+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,2046,,DDoS-Guard
 2026-08-26T17:23:58.584983+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,748,,DDoS-Guard
 2026-08-26T17:24:59.719642+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,938,,DDoS-Guard
+2026-08-26T17:25:59.740933+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,642,,DDoS-Guard
+2026-08-26T17:26:59.961196+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,716,,DDoS-Guard
+2026-08-26T17:27:59.970419+00:00,Annas-Archive,Annas-Archive.pk,DOWN,,,connection_refused,
+2026-08-26T17:29:01.969608+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,796,,DDoS-Guard
