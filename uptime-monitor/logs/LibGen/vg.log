@@ -3678,3 +3678,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-26T12:07:18.042361+00:00,LibGen,LibGen.vg,UP,200,1368,,
 2026-08-26T12:08:18.683025+00:00,LibGen,LibGen.vg,UP,200,1422,,
 2026-08-26T12:09:19.676997+00:00,LibGen,LibGen.vg,UP,200,1884,,
+2026-08-26T12:10:20.168252+00:00,LibGen,LibGen.vg,DOWN,502,1785,http_error,
+2026-08-26T12:11:40.179052+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
+2026-08-26T12:12:39.815581+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
+2026-08-26T12:13:22.195419+00:00,LibGen,LibGen.vg,UP,200,1323,,
+2026-08-26T12:14:28.180114+00:00,LibGen,LibGen.vg,UP,200,2318,,
