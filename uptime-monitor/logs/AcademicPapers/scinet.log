@@ -3812,3 +3812,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-26T14:22:37.600673+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,782,http_error,
 2026-08-26T14:23:37.965397+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,661,http_error,
 2026-08-26T14:24:39.032907+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,316,http_error,
+2026-08-26T14:25:39.930972+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,441,,DDoS-Guard
+2026-08-26T14:26:41.431066+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,920,,DDoS-Guard
+2026-08-26T14:27:41.679237+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,387,http_error,
+2026-08-26T14:28:42.393570+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,391,http_error,
