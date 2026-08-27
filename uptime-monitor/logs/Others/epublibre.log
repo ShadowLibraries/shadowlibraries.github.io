@@ -5533,3 +5533,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-27T19:52:41.677306+00:00,Others,Others.epublibre,UP,200,938,,
 2026-08-27T19:53:41.220242+00:00,Others,Others.epublibre,UP,200,229,,
 2026-08-27T19:54:41.985881+00:00,Others,Others.epublibre,UP,200,782,,
+2026-08-27T19:55:42.851478+00:00,Others,Others.epublibre,UP,200,955,,
+2026-08-27T19:56:42.856574+00:00,Others,Others.epublibre,UP,200,631,,
+2026-08-27T19:57:47.402791+00:00,Others,Others.epublibre,DEGRADED,200,4237,latency_high,
+2026-08-27T19:58:44.690065+00:00,Others,Others.epublibre,UP,200,777,,
