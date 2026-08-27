@@ -5403,3 +5403,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-27T17:42:09.592861+00:00,LibGen,LibGen.la,DOWN,,,connection_refused,
 2026-08-27T17:43:09.578717+00:00,LibGen,LibGen.la,DOWN,,,connection_refused,
 2026-08-27T17:43:51.294108+00:00,LibGen,LibGen.la,PROTECTED,200,1154,,Cloudflare
+2026-08-27T17:44:50.516188+00:00,LibGen,LibGen.la,PROTECTED,200,755,,Cloudflare
+2026-08-27T17:45:50.312443+00:00,LibGen,LibGen.la,PROTECTED,200,505,,Cloudflare
+2026-08-27T17:46:51.898795+00:00,LibGen,LibGen.la,PROTECTED,200,708,,Cloudflare
+2026-08-27T17:47:50.630631+00:00,LibGen,LibGen.la,PROTECTED,200,343,,Cloudflare
+2026-08-27T17:48:51.760932+00:00,LibGen,LibGen.la,PROTECTED,200,490,,Cloudflare
