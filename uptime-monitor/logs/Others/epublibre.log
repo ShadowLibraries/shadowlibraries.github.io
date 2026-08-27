@@ -5692,3 +5692,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-27T22:32:42.651096+00:00,Others,Others.epublibre,UP,200,558,,
 2026-08-27T22:33:43.103422+00:00,Others,Others.epublibre,UP,200,597,,
 2026-08-27T22:34:43.857937+00:00,Others,Others.epublibre,UP,200,547,,
+2026-08-27T22:35:44.891058+00:00,Others,Others.epublibre,UP,200,577,,
+2026-08-27T22:36:45.972626+00:00,Others,Others.epublibre,UP,200,580,,
+2026-08-27T22:38:02.672457+00:00,Others,Others.epublibre,DEGRADED,200,17157,latency_high,
+2026-08-27T22:38:46.082261+00:00,Others,Others.epublibre,UP,200,545,,
