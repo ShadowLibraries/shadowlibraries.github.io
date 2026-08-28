@@ -1028,3 +1028,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-28T19:11:57.728509+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,787,,DDoS-Guard
 2026-08-28T19:12:59.075183+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,1261,,DDoS-Guard
 2026-08-28T19:13:59.641424+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,1795,,DDoS-Guard
+2026-08-28T19:14:59.351481+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,640,,DDoS-Guard
+2026-08-28T19:15:59.336684+00:00,Annas-Archive,Annas-Archive.gl,DOWN,,,connection_refused,
+2026-08-28T19:17:02.600534+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,2153,,DDoS-Guard
+2026-08-28T19:18:01.225305+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,344,,DDoS-Guard
+2026-08-28T19:19:01.879671+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,828,,DDoS-Guard
