@@ -6179,3 +6179,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-28T06:42:29.222001+00:00,LibGen,LibGen.gl,PROTECTED,200,851,,Cloudflare
 2026-08-28T06:43:30.435009+00:00,LibGen,LibGen.gl,PROTECTED,200,1826,,Cloudflare
 2026-08-28T06:44:29.568207+00:00,LibGen,LibGen.gl,PROTECTED,200,689,,Cloudflare
+2026-08-28T06:45:31.654547+00:00,LibGen,LibGen.gl,PROTECTED,200,737,,Cloudflare
+2026-08-28T06:46:32.686230+00:00,LibGen,LibGen.gl,PROTECTED,200,1710,,Cloudflare
+2026-08-28T06:47:51.360307+00:00,LibGen,LibGen.gl,TIMEOUT,,,timeout,
+2026-08-28T06:48:34.230607+00:00,LibGen,LibGen.gl,PROTECTED,200,2164,,Cloudflare
