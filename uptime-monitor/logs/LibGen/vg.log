@@ -583,3 +583,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-28T11:41:51.725848+00:00,LibGen,LibGen.vg,UP,200,2337,,
 2026-08-28T11:42:52.558327+00:00,LibGen,LibGen.vg,UP,200,1278,,
 2026-08-28T11:43:52.389091+00:00,LibGen,LibGen.vg,UP,200,1524,,
+2026-08-28T11:45:11.752201+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
+2026-08-28T11:46:12.095436+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
+2026-08-28T11:47:12.794765+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
+2026-08-28T11:47:54.545754+00:00,LibGen,LibGen.vg,UP,200,1250,,
+2026-08-28T11:48:56.258663+00:00,LibGen,LibGen.vg,UP,200,1382,,
