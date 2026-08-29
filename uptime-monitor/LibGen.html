@@ -20,7 +20,7 @@
 <header>
     <h1>LibGen</h1>
     <p class="subtitle">
-        Status: <span class="status-badge DEGRADED">DEGRADED</span>
+        Status: <span class="status-badge DOWN">DOWN</span>
     </p>
 </header>
 <div class="card" id="LibGen.li">
@@ -63,7 +63,7 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">567ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">778ms</span></div>
                 
                 
                 
@@ -74,8 +74,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/li.log">
-        
-        <span class="up" data-timestamp="2026-08-28T22:15:00+00:00" data-status="UP" data-http-status="200" data-latency="660" data-failure="" title="2026-08-28T22:15:00+00:00 - UP | HTTP 200 | 660ms"></span>
         
         <span class="degraded" data-timestamp="2026-08-28T22:20:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="640" data-failure="" title="2026-08-28T22:20:00+00:00 - DEGRADED | HTTP 200 | 640ms"></span>
         
@@ -170,6 +168,8 @@
         <span class="up" data-timestamp="2026-08-29T02:05:00+00:00" data-status="UP" data-http-status="200" data-latency="638" data-failure="" title="2026-08-29T02:05:00+00:00 - UP | HTTP 200 | 638ms"></span>
         
         <span class="up" data-timestamp="2026-08-29T02:10:00+00:00" data-status="UP" data-http-status="200" data-latency="567" data-failure="" title="2026-08-29T02:10:00+00:00 - UP | HTTP 200 | 567ms"></span>
+        
+        <span class="up" data-timestamp="2026-08-29T02:15:00+00:00" data-status="UP" data-http-status="200" data-latency="778" data-failure="" title="2026-08-29T02:15:00+00:00 - UP | HTTP 200 | 778ms"></span>
     </div>
 
     
@@ -214,7 +214,7 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">2898ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">1368ms</span></div>
                 
                 
                 
@@ -225,8 +225,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/vg.log">
-        
-        <span class="up" data-timestamp="2026-08-28T22:15:00+00:00" data-status="UP" data-http-status="200" data-latency="4575" data-failure="FailureType.LATENCY_HIGH" title="2026-08-28T22:15:00+00:00 - UP | HTTP 200 | 4575ms | latency_high"></span>
         
         <span class="up" data-timestamp="2026-08-28T22:20:00+00:00" data-status="UP" data-http-status="200" data-latency="1237" data-failure="" title="2026-08-28T22:20:00+00:00 - UP | HTTP 200 | 1237ms"></span>
         
@@ -320,7 +318,9 @@
         
         <span class="up" data-timestamp="2026-08-29T02:05:00+00:00" data-status="UP" data-http-status="200" data-latency="1544" data-failure="" title="2026-08-29T02:05:00+00:00 - UP | HTTP 200 | 1544ms"></span>
         
-        <span class="up" data-timestamp="2026-08-29T02:10:00+00:00" data-status="UP" data-http-status="200" data-latency="2898" data-failure="" title="2026-08-29T02:10:00+00:00 - UP | HTTP 200 | 2898ms"></span>
+        <span class="up" data-timestamp="2026-08-29T02:10:00+00:00" data-status="UP" data-http-status="200" data-latency="1849" data-failure="" title="2026-08-29T02:10:00+00:00 - UP | HTTP 200 | 1849ms"></span>
+        
+        <span class="up" data-timestamp="2026-08-29T02:15:00+00:00" data-status="UP" data-http-status="200" data-latency="1368" data-failure="" title="2026-08-29T02:15:00+00:00 - UP | HTTP 200 | 1368ms"></span>
     </div>
 
     
@@ -336,8 +336,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="LibGen.la" data-log-path="logs/LibGen/la.log" data-domain-url="libgen.la" data-archive-links='[{"date": "2026-08", "url": "logs/archive/2026-08/LibGen/la.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge degraded">
-                DEGRADED
+            <span class="status-badge down">
+                DOWN
             </span>
         </div>
     </div>
@@ -365,12 +365,13 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">519ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">651ms</span></div>
                 
                 
                 
-                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
-                    <strong>DEGRADED:</strong> 1 check failed.
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #da3633; font-size: 0.75rem;">
+                    <strong>DOWN:</strong> 2+ checks failed.
                     
                     
                     
@@ -386,8 +387,8 @@
                     
                     
                     
+                    <br><span>Latest: 2026-08-28T23:20:00+00:00 | DOWN | HTTP 200</span>
                     
-                    <br><span style="color: #da3633;">Latest: 2026-08-28T23:20:00+00:00 | DOWN | HTTP 200</span>
                     
                     
                     
@@ -425,15 +426,12 @@
                     
                 </div>
                 
-                
                 <div style="margin-top: 0.5rem;">Cert: Oct 30 (62d) ✓</div>
             </div>
         </div>
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/la.log">
-        
-        <span class="protected" data-timestamp="2026-08-28T22:15:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="265" data-failure="" title="2026-08-28T22:15:00+00:00 - PROTECTED | HTTP 200 | 265ms"></span>
         
         <span class="protected" data-timestamp="2026-08-28T22:20:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="423" data-failure="" title="2026-08-28T22:20:00+00:00 - PROTECTED | HTTP 200 | 423ms"></span>
         
@@ -527,7 +525,9 @@
         
         <span class="degraded" data-timestamp="2026-08-29T02:05:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="657" data-failure="" title="2026-08-29T02:05:00+00:00 - DEGRADED | HTTP 200 | 657ms"></span>
         
-        <span class="degraded" data-timestamp="2026-08-29T02:10:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="519" data-failure="" title="2026-08-29T02:10:00+00:00 - DEGRADED | HTTP 200 | 519ms"></span>
+        <span class="degraded" data-timestamp="2026-08-29T02:10:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="449" data-failure="" title="2026-08-29T02:10:00+00:00 - DEGRADED | HTTP 200 | 449ms"></span>
+        
+        <span class="down" data-timestamp="2026-08-29T02:15:00+00:00" data-status="DOWN" data-http-status="200" data-latency="651" data-failure="" title="2026-08-29T02:15:00+00:00 - DOWN | HTTP 200 | 651ms"></span>
     </div>
 
     
@@ -543,8 +543,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="LibGen.bz" data-log-path="logs/LibGen/bz.log" data-domain-url="libgen.bz" data-archive-links='[{"date": "2026-08", "url": "logs/archive/2026-08/LibGen/bz.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge up">
-                UP
+            <span class="status-badge degraded">
+                DEGRADED
             </span>
         </div>
     </div>
@@ -572,9 +572,65 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">593ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">631ms</span></div>
                 
                 
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
+                    <strong>DEGRADED:</strong> 1 check failed.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <br><span style="color: #da3633;">Latest: 2026-08-28T23:30:00+00:00 | DOWN | HTTP 200</span>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
                 
                 
                 <div style="margin-top: 0.5rem;">Cert: Nov 11 (74d) ✓</div>
@@ -583,8 +639,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/bz.log">
-        
-        <span class="down" data-timestamp="2026-08-28T22:15:00+00:00" data-status="DOWN" data-http-status="200" data-latency="655" data-failure="" title="2026-08-28T22:15:00+00:00 - DOWN | HTTP 200 | 655ms"></span>
         
         <span class="up" data-timestamp="2026-08-28T22:20:00+00:00" data-status="UP" data-http-status="200" data-latency="626" data-failure="" title="2026-08-28T22:20:00+00:00 - UP | HTTP 200 | 626ms"></span>
         
@@ -678,7 +732,9 @@
         
         <span class="degraded" data-timestamp="2026-08-29T02:05:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="635" data-failure="" title="2026-08-29T02:05:00+00:00 - DEGRADED | HTTP 200 | 635ms"></span>
         
-        <span class="up" data-timestamp="2026-08-29T02:10:00+00:00" data-status="UP" data-http-status="200" data-latency="593" data-failure="" title="2026-08-29T02:10:00+00:00 - UP | HTTP 200 | 593ms"></span>
+        <span class="up" data-timestamp="2026-08-29T02:10:00+00:00" data-status="UP" data-http-status="200" data-latency="883" data-failure="" title="2026-08-29T02:10:00+00:00 - UP | HTTP 200 | 883ms"></span>
+        
+        <span class="degraded" data-timestamp="2026-08-29T02:15:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="631" data-failure="" title="2026-08-29T02:15:00+00:00 - DEGRADED | HTTP 200 | 631ms"></span>
     </div>
 
     
@@ -723,7 +779,7 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">730ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">2872ms</span></div>
                 
                 
                 
@@ -734,8 +790,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/gl.log">
-        
-        <span class="protected" data-timestamp="2026-08-28T22:15:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="1567" data-failure="" title="2026-08-28T22:15:00+00:00 - PROTECTED | HTTP 200 | 1567ms"></span>
         
         <span class="protected" data-timestamp="2026-08-28T22:20:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="815" data-failure="" title="2026-08-28T22:20:00+00:00 - PROTECTED | HTTP 200 | 815ms"></span>
         
@@ -829,7 +883,9 @@
         
         <span class="protected" data-timestamp="2026-08-29T02:05:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="939" data-failure="" title="2026-08-29T02:05:00+00:00 - PROTECTED | HTTP 200 | 939ms"></span>
         
-        <span class="protected" data-timestamp="2026-08-29T02:10:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="730" data-failure="" title="2026-08-29T02:10:00+00:00 - PROTECTED | HTTP 200 | 730ms"></span>
+        <span class="protected" data-timestamp="2026-08-29T02:10:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="1895" data-failure="" title="2026-08-29T02:10:00+00:00 - PROTECTED | HTTP 200 | 1895ms"></span>
+        
+        <span class="protected" data-timestamp="2026-08-29T02:15:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="2872" data-failure="" title="2026-08-29T02:15:00+00:00 - PROTECTED | HTTP 200 | 2872ms"></span>
     </div>
 
     
@@ -920,7 +976,7 @@
                 
             </div>
             
-            <p>Generated at 2026-08-29T02:14:30.952246+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
+            <p>Generated at 2026-08-29T02:19:34.731661+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
         </div>
     </div>
     
