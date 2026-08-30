@@ -1691,3 +1691,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-30T06:22:37.368936+00:00,Others,Others.memory,DOWN,,,connection_refused,
 2026-08-30T06:23:37.882223+00:00,Others,Others.memory,DOWN,,,connection_refused,
 2026-08-30T06:24:38.259481+00:00,Others,Others.memory,DOWN,,,connection_refused,
+2026-08-30T06:25:37.998914+00:00,Others,Others.memory,DOWN,,,connection_refused,
+2026-08-30T06:26:39.310176+00:00,Others,Others.memory,UP,200,364,,
+2026-08-30T06:27:39.102353+00:00,Others,Others.memory,UP,200,341,,
+2026-08-30T06:28:39.943228+00:00,Others,Others.memory,UP,200,347,,
+2026-08-30T06:29:41.113210+00:00,Others,Others.memory,UP,200,325,,
