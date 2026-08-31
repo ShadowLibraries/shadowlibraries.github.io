@@ -1663,3 +1663,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-31T05:51:57.847188+00:00,LibGen,LibGen.li,UP,200,828,,
 2026-08-31T05:53:01.753702+00:00,LibGen,LibGen.li,DEGRADED,200,3765,latency_high,
 2026-08-31T05:54:00.628220+00:00,LibGen,LibGen.li,UP,200,2007,,
+2026-08-31T05:55:00.926602+00:00,LibGen,LibGen.li,UP,200,2245,,
+2026-08-31T05:56:02.838503+00:00,LibGen,LibGen.li,DEGRADED,200,4160,latency_high,
+2026-08-31T05:57:01.364354+00:00,LibGen,LibGen.li,UP,200,2770,,
+2026-08-31T05:58:02.265868+00:00,LibGen,LibGen.li,UP,200,1020,,
+2026-08-31T05:59:01.134527+00:00,LibGen,LibGen.li,UP,200,955,,
