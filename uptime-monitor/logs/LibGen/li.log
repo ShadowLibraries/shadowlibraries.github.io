@@ -1629,3 +1629,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-08-31T05:17:56.012153+00:00,LibGen,LibGen.li,DOWN,500,16057,http_error,
 2026-08-31T05:18:42.913252+00:00,LibGen,LibGen.li,UP,200,876,,
 2026-08-31T05:19:42.878567+00:00,LibGen,LibGen.li,UP,200,729,,
+2026-08-31T05:20:41.951466+00:00,LibGen,LibGen.li,UP,200,732,,
+2026-08-31T05:21:43.524441+00:00,LibGen,LibGen.li,UP,200,778,,
+2026-08-31T05:23:02.754674+00:00,LibGen,LibGen.li,DOWN,,,connection_refused,
+2026-08-31T05:24:03.904014+00:00,LibGen,LibGen.li,DOWN,,,connection_refused,
