@@ -1255,3 +1255,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-02T22:27:52.259871+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,614,,Cloudflare
 2026-09-02T22:28:53.321405+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,1128,,Cloudflare
 2026-09-02T22:29:53.259628+00:00,AcademicPapers,AcademicPapers.pidantuan,PROTECTED,200,780,,Cloudflare
+2026-09-02T22:31:12.611101+00:00,AcademicPapers,AcademicPapers.pidantuan,TIMEOUT,,,timeout,
+2026-09-02T22:32:12.749768+00:00,AcademicPapers,AcademicPapers.pidantuan,TIMEOUT,,,timeout,
+2026-09-02T22:33:12.962842+00:00,AcademicPapers,AcademicPapers.pidantuan,TIMEOUT,,,timeout,
+2026-09-02T22:34:13.040144+00:00,AcademicPapers,AcademicPapers.pidantuan,TIMEOUT,,,timeout,
