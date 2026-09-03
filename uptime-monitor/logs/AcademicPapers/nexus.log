@@ -401,3 +401,5 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-03T05:07:57.882051+00:00,AcademicPapers,AcademicPapers.nexus,PROTECTED,200,43,,Cloudflare
 2026-09-03T05:12:11.337640+00:00,AcademicPapers,AcademicPapers.nexus,PROTECTED,200,3176,,Cloudflare
 2026-09-03T05:16:18.902877+00:00,AcademicPapers,AcademicPapers.nexus,PROTECTED,200,136,,Cloudflare
+2026-09-03T05:20:28.846824+00:00,AcademicPapers,AcademicPapers.nexus,DOWN,,,connection_refused,
+2026-09-03T05:24:39.249987+00:00,AcademicPapers,AcademicPapers.nexus,PROTECTED,200,154,,Cloudflare
