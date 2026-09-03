@@ -902,3 +902,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-03T16:32:13.874107+00:00,LibGen,LibGen.li,UP,200,987,,
 2026-09-03T16:33:15.263150+00:00,LibGen,LibGen.li,UP,200,1341,,
 2026-09-03T16:34:13.427138+00:00,LibGen,LibGen.li,UP,200,823,,
+2026-09-03T16:35:13.970145+00:00,LibGen,LibGen.li,DOWN,500,901,http_error,
+2026-09-03T16:36:15.546439+00:00,LibGen,LibGen.li,UP,200,1708,,
+2026-09-03T16:37:15.104677+00:00,LibGen,LibGen.li,UP,200,960,,
+2026-09-03T16:38:15.289358+00:00,LibGen,LibGen.li,UP,200,958,,
+2026-09-03T16:39:16.417754+00:00,LibGen,LibGen.li,UP,200,858,,
