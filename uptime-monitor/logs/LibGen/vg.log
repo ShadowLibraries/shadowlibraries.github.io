@@ -1303,3 +1303,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-07T23:17:56.680631+00:00,LibGen,LibGen.vg,UP,200,1245,,
 2026-09-07T23:18:56.594916+00:00,LibGen,LibGen.vg,UP,200,1336,,
 2026-09-07T23:19:56.815113+00:00,LibGen,LibGen.vg,UP,200,1905,,
+2026-09-07T23:21:04.963946+00:00,LibGen,LibGen.vg,DEGRADED,200,10430,latency_high,
+2026-09-07T23:21:56.918213+00:00,LibGen,LibGen.vg,UP,200,1390,,
+2026-09-07T23:22:58.944481+00:00,LibGen,LibGen.vg,DEGRADED,200,3235,latency_high,
+2026-09-07T23:23:56.308330+00:00,LibGen,LibGen.vg,UP,200,678,,
