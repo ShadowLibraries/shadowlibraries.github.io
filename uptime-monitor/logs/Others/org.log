@@ -629,3 +629,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-08T11:57:01.494716+00:00,Others,Others.org,UP,200,688,,
 2026-09-08T11:58:01.123595+00:00,Others,Others.org,UP,200,489,,
 2026-09-08T11:59:02.701335+00:00,Others,Others.org,UP,200,916,,
+2026-09-08T12:00:06.406385+00:00,Others,Others.org,DEGRADED,200,3366,latency_high,
+2026-09-08T12:01:03.421272+00:00,Others,Others.org,UP,200,661,,
+2026-09-08T12:02:04.462697+00:00,Others,Others.org,UP,200,1051,,
+2026-09-08T12:03:05.038062+00:00,Others,Others.org,UP,200,548,,
+2026-09-08T12:04:05.121317+00:00,Others,Others.org,UP,200,497,,
