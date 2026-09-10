@@ -1600,3 +1600,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-10T04:17:06.165346+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,324,,DDoS-Guard
 2026-09-10T04:18:07.314414+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,358,,DDoS-Guard
 2026-09-10T04:19:07.726344+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,382,,DDoS-Guard
+2026-09-10T04:20:07.726825+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,,,connection_refused,
+2026-09-10T04:21:08.080623+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,354,,DDoS-Guard
+2026-09-10T04:22:08.276713+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,397,,DDoS-Guard
+2026-09-10T04:23:08.168552+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,339,,DDoS-Guard
+2026-09-10T04:24:08.405781+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,397,,DDoS-Guard
