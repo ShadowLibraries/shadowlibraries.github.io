@@ -1222,3 +1222,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-11T21:52:23.492461+00:00,LibGen,LibGen.vg,UP,200,1298,,
 2026-09-11T21:53:22.957201+00:00,LibGen,LibGen.vg,UP,200,1365,,
 2026-09-11T21:54:25.654968+00:00,LibGen,LibGen.vg,UP,200,2105,,
+2026-09-11T21:55:24.546449+00:00,LibGen,LibGen.vg,UP,200,1432,,
+2026-09-11T21:56:24.325439+00:00,LibGen,LibGen.vg,UP,200,1295,,
+2026-09-11T21:57:28.440709+00:00,LibGen,LibGen.vg,DEGRADED,200,4332,latency_high,
+2026-09-11T21:58:24.734370+00:00,LibGen,LibGen.vg,UP,200,692,,
+2026-09-11T21:59:24.236453+00:00,LibGen,LibGen.vg,UP,200,718,,
