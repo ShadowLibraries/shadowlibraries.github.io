@@ -1249,3 +1249,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-12T22:32:27.936890+00:00,LibGen,LibGen.la,PROTECTED,200,285,,Cloudflare
 2026-09-12T22:33:28.357881+00:00,LibGen,LibGen.la,PROTECTED,200,611,,Cloudflare
 2026-09-12T22:34:28.906759+00:00,LibGen,LibGen.la,PROTECTED,200,790,,Cloudflare
+2026-09-12T22:35:29.240709+00:00,LibGen,LibGen.la,PROTECTED,200,941,,Cloudflare
+2026-09-12T22:36:50.662104+00:00,LibGen,LibGen.la,DOWN,,,connection_refused,
+2026-09-12T22:37:29.814183+00:00,LibGen,LibGen.la,PROTECTED,200,914,,Cloudflare
+2026-09-12T22:38:29.359608+00:00,LibGen,LibGen.la,PROTECTED,200,421,,Cloudflare

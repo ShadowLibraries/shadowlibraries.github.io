@@ -1249,3 +1249,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-12T22:32:28.272807+00:00,LibGen,LibGen.li,UP,200,620,,
 2026-09-12T22:33:29.197572+00:00,LibGen,LibGen.li,UP,200,997,,
 2026-09-12T22:34:28.466580+00:00,LibGen,LibGen.li,UP,200,265,,
+2026-09-12T22:35:29.074634+00:00,LibGen,LibGen.li,UP,200,786,,
+2026-09-12T22:36:29.772378+00:00,LibGen,LibGen.li,UP,200,728,,
+2026-09-12T22:37:29.595622+00:00,LibGen,LibGen.li,UP,200,692,,
+2026-09-12T22:38:32.598326+00:00,LibGen,LibGen.li,DEGRADED,200,3662,latency_high,
