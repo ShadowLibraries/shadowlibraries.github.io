@@ -738,3 +738,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-13T13:57:23.223536+00:00,LibGen,LibGen.gl,PROTECTED,200,1301,,Cloudflare
 2026-09-13T13:58:24.157542+00:00,LibGen,LibGen.gl,PROTECTED,200,1988,,Cloudflare
 2026-09-13T13:59:25.401593+00:00,LibGen,LibGen.gl,PROTECTED,200,802,,Cloudflare
+2026-09-13T14:00:23.901480+00:00,LibGen,LibGen.gl,DOWN,500,698,http_error,
+2026-09-13T14:01:26.045772+00:00,LibGen,LibGen.gl,PROTECTED,200,942,,Cloudflare
+2026-09-13T14:02:28.594417+00:00,LibGen,LibGen.gl,PROTECTED,200,1816,,Cloudflare
+2026-09-13T14:03:28.644772+00:00,LibGen,LibGen.gl,PROTECTED,200,1872,,Cloudflare
+2026-09-13T14:04:27.202830+00:00,LibGen,LibGen.gl,DOWN,500,708,http_error,
