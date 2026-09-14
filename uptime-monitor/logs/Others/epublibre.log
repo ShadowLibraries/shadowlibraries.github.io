@@ -963,3 +963,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-14T17:42:53.226731+00:00,Others,Others.epublibre,UP,200,666,,
 2026-09-14T17:43:54.152260+00:00,Others,Others.epublibre,UP,200,1024,,
 2026-09-14T17:44:54.054503+00:00,Others,Others.epublibre,UP,200,623,,
+2026-09-14T17:45:54.263309+00:00,Others,Others.epublibre,UP,200,583,,
+2026-09-14T17:46:58.697054+00:00,Others,Others.epublibre,DEGRADED,200,4762,latency_high,
+2026-09-14T17:47:58.580460+00:00,Others,Others.epublibre,DEGRADED,200,4345,latency_high,
+2026-09-14T17:48:55.248570+00:00,Others,Others.epublibre,UP,200,831,,
