@@ -823,3 +823,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-14T15:22:08.577497+00:00,Others,Others.org,UP,200,2909,,
 2026-09-14T15:23:13.211949+00:00,Others,Others.org,DEGRADED,200,6765,latency_high,
 2026-09-14T15:24:28.145360+00:00,Others,Others.org,TIMEOUT,,,timeout,
+2026-09-14T15:25:08.259946+00:00,Others,Others.org,UP,200,1214,,
+2026-09-14T15:26:08.867445+00:00,Others,Others.org,UP,200,1763,,
+2026-09-14T15:27:11.808515+00:00,Others,Others.org,DEGRADED,200,4625,latency_high,
+2026-09-14T15:28:08.674729+00:00,Others,Others.org,UP,200,1136,,
+2026-09-14T15:29:10.145751+00:00,Others,Others.org,UP,200,2205,,
