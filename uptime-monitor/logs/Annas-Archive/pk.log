@@ -918,3 +918,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-18T16:57:27.659790+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,659,,DDoS-Guard
 2026-09-18T16:58:27.391589+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,328,,DDoS-Guard
 2026-09-18T16:59:28.917528+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1162,,DDoS-Guard
+2026-09-18T17:00:28.947174+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,810,,DDoS-Guard
+2026-09-18T17:01:28.914205+00:00,Annas-Archive,Annas-Archive.pk,DOWN,,,connection_refused,
+2026-09-18T17:02:30.213913+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,972,,DDoS-Guard
+2026-09-18T17:03:29.946734+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,341,,DDoS-Guard
+2026-09-18T17:04:31.171244+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,871,,DDoS-Guard
