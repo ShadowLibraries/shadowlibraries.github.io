@@ -873,3 +873,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-19T16:12:48.988723+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,741,,DDoS-Guard
 2026-09-19T16:13:51.082944+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,2381,,DDoS-Guard
 2026-09-19T16:14:50.198170+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1485,,DDoS-Guard
+2026-09-19T16:15:51.759789+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1867,,DDoS-Guard
+2026-09-19T16:17:05.965009+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1155,,DDoS-Guard
+2026-09-19T16:18:13.887072+00:00,Annas-Archive,Annas-Archive.pk,DOWN,,,connection_refused,
+2026-09-19T16:18:52.366137+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1669,,DDoS-Guard
