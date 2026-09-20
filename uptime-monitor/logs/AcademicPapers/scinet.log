@@ -1713,3 +1713,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-20T06:17:51.384828+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,786,,DDoS-Guard
 2026-09-20T06:18:51.530824+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,440,,DDoS-Guard
 2026-09-20T06:19:51.655626+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,441,,DDoS-Guard
+2026-09-20T06:20:52.270489+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,433,,DDoS-Guard
+2026-09-20T06:21:52.817244+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,441,,DDoS-Guard
+2026-09-20T06:22:52.813581+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,,,connection_refused,
+2026-09-20T06:23:53.442396+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,418,,DDoS-Guard
+2026-09-20T06:24:53.517479+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,344,,DDoS-Guard
