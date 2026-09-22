@@ -903,3 +903,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-22T16:42:43.437003+00:00,LibGen,LibGen.bz,UP,200,652,,
 2026-09-22T16:43:44.821698+00:00,LibGen,LibGen.bz,UP,200,698,,
 2026-09-22T16:44:45.411764+00:00,LibGen,LibGen.bz,UP,200,724,,
+2026-09-22T16:45:46.403156+00:00,LibGen,LibGen.bz,UP,200,764,,
+2026-09-22T16:46:46.290674+00:00,LibGen,LibGen.bz,UP,200,586,,
+2026-09-22T16:47:50.206014+00:00,LibGen,LibGen.bz,DEGRADED,200,3675,latency_high,
+2026-09-22T16:48:48.023876+00:00,LibGen,LibGen.bz,UP,200,723,,
