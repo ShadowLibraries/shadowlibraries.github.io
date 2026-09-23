@@ -1643,3 +1643,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-23T05:06:58.718721+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,347,,DDoS-Guard
 2026-09-23T05:07:59.289670+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,326,,DDoS-Guard
 2026-09-23T05:08:59.844831+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,330,,DDoS-Guard
+2026-09-23T05:09:59.855610+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,,,,connection-blocked
+2026-09-23T05:11:01.168834+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,443,,DDoS-Guard
+2026-09-23T05:12:01.864680+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,473,,DDoS-Guard
+2026-09-23T05:13:01.603925+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,71,,DDoS-Guard
+2026-09-23T05:14:02.685936+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,540,,DDoS-Guard
