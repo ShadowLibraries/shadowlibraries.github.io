@@ -693,3 +693,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-28T12:57:58.994130+00:00,LibGen,LibGen.bz,UP,200,997,,
 2026-09-28T12:58:58.841476+00:00,LibGen,LibGen.bz,UP,200,708,,
 2026-09-28T12:59:59.125837+00:00,LibGen,LibGen.bz,UP,200,738,,
+2026-09-28T13:00:58.966691+00:00,LibGen,LibGen.bz,UP,200,258,,
+2026-09-28T13:01:59.797176+00:00,LibGen,LibGen.bz,UP,200,872,,
+2026-09-28T13:03:20.772053+00:00,LibGen,LibGen.bz,DOWN,,,connection_refused,
+2026-09-28T13:04:00.670271+00:00,LibGen,LibGen.bz,UP,200,860,,
