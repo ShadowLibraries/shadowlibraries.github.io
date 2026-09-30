@@ -803,3 +803,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-30T14:47:37.166058+00:00,Others,Others.epublibre,UP,200,768,,
 2026-09-30T14:48:37.458250+00:00,Others,Others.epublibre,UP,200,627,,
 2026-09-30T14:49:37.697384+00:00,Others,Others.epublibre,UP,200,727,,
+2026-09-30T14:50:37.987634+00:00,Others,Others.epublibre,UP,200,1004,,
+2026-09-30T14:51:37.489550+00:00,Others,Others.epublibre,UP,200,238,,
+2026-09-30T14:52:41.578708+00:00,Others,Others.epublibre,DEGRADED,200,4355,latency_high,
+2026-09-30T14:53:38.696247+00:00,Others,Others.epublibre,UP,200,1037,,
