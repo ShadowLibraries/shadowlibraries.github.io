@@ -813,3 +813,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-09-30T14:57:38.749758+00:00,Others,Others.memory,UP,200,95,,
 2026-09-30T14:58:41.443678+00:00,Others,Others.memory,UP,200,2436,,
 2026-09-30T14:59:39.354312+00:00,Others,Others.memory,UP,200,365,,
+2026-09-30T15:00:49.347480+00:00,Others,Others.memory,DEGRADED,200,9714,latency_high,
+2026-09-30T15:01:47.209069+00:00,Others,Others.memory,DEGRADED,200,7240,latency_high,
+2026-09-30T15:02:40.279259+00:00,Others,Others.memory,UP,200,378,,
+2026-09-30T15:03:41.661614+00:00,Others,Others.memory,UP,200,1491,,
+2026-09-30T15:04:40.569715+00:00,Others,Others.memory,UP,200,395,,
