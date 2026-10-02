@@ -1199,3 +1199,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-02T21:42:06.768408+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,2081,,DDoS-Guard
 2026-10-02T21:43:05.039809+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,174,,DDoS-Guard
 2026-10-02T21:44:05.888629+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,396,,DDoS-Guard
+2026-10-02T21:45:06.286256+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,356,,DDoS-Guard
+2026-10-02T21:46:26.520497+00:00,AcademicPapers,AcademicPapers.scinet,TIMEOUT,,,timeout,
+2026-10-02T21:47:07.468188+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,746,,DDoS-Guard
+2026-10-02T21:48:07.437227+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,302,,DDoS-Guard
+2026-10-02T21:49:07.687501+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,344,,DDoS-Guard
