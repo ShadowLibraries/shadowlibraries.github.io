@@ -808,3 +808,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-02T15:07:18.411747+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1994,,DDoS-Guard
 2026-10-02T15:08:17.464713+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,760,,DDoS-Guard
 2026-10-02T15:09:17.972714+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,707,,DDoS-Guard
+2026-10-02T15:10:18.575896+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,857,,DDoS-Guard
+2026-10-02T15:11:19.085684+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,740,,DDoS-Guard
+2026-10-02T15:12:43.436958+00:00,Annas-Archive,Annas-Archive.gd,DOWN,,,connection_refused,
+2026-10-02T15:13:38.820050+00:00,Annas-Archive,Annas-Archive.gd,TIMEOUT,,,timeout,
+2026-10-02T15:14:38.990004+00:00,Annas-Archive,Annas-Archive.gd,TIMEOUT,,,timeout,

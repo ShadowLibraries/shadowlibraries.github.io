@@ -807,3 +807,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-02T15:07:16.774025+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,433,,DDoS-Guard
 2026-10-02T15:08:17.059789+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,416,,DDoS-Guard
 2026-10-02T15:09:17.407440+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,346,,DDoS-Guard
+2026-10-02T15:10:18.373729+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,728,,DDoS-Guard
+2026-10-02T15:11:38.335964+00:00,AcademicPapers,AcademicPapers.st,TIMEOUT,,,timeout,
+2026-10-02T15:12:18.894659+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,331,,DDoS-Guard
+2026-10-02T15:13:20.463097+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,1755,,DDoS-Guard
+2026-10-02T15:14:38.938922+00:00,AcademicPapers,AcademicPapers.st,TIMEOUT,,,timeout,
