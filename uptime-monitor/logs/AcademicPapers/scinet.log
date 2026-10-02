@@ -658,3 +658,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-02T12:37:39.856308+00:00,AcademicPapers,AcademicPapers.scinet,TIMEOUT,,,timeout,
 2026-10-02T12:38:40.018609+00:00,AcademicPapers,AcademicPapers.scinet,TIMEOUT,,,timeout,
 2026-10-02T12:39:20.172717+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,306,,DDoS-Guard
+2026-10-02T12:40:20.311006+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,179,,DDoS-Guard
+2026-10-02T12:41:40.844171+00:00,AcademicPapers,AcademicPapers.scinet,TIMEOUT,,,timeout,
+2026-10-02T12:42:21.370334+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,323,,DDoS-Guard
+2026-10-02T12:43:21.767441+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,317,,DDoS-Guard
+2026-10-02T12:44:41.522644+00:00,AcademicPapers,AcademicPapers.scinet,TIMEOUT,,,timeout,
