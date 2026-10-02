@@ -911,3 +911,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-02T16:52:27.848036+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,,,,connection-blocked
 2026-10-02T16:53:02.396773+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,797,,DDoS-Guard
 2026-10-02T16:54:03.408554+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,1475,,DDoS-Guard
+2026-10-02T16:55:24.076915+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,21852,,DDoS-Guard
+2026-10-02T16:56:03.077253+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,547,,DDoS-Guard
+2026-10-02T16:57:12.447092+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,9544,,DDoS-Guard
+2026-10-02T16:58:06.985892+00:00,AcademicPapers,AcademicPapers.st,PROTECTED,403,3819,,DDoS-Guard
+2026-10-02T16:59:23.602587+00:00,AcademicPapers,AcademicPapers.st,TIMEOUT,,,timeout,
