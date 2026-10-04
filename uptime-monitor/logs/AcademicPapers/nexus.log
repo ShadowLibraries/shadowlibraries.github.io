@@ -227,3 +227,4 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-04T17:10:29.554315+00:00,AcademicPapers,AcademicPapers.nexus,DEGRADED,200,8158,latency_high,
 2026-10-04T17:14:32.176040+00:00,AcademicPapers,AcademicPapers.nexus,UP,200,106,,
 2026-10-04T17:18:48.647099+00:00,AcademicPapers,AcademicPapers.nexus,DOWN,,,connection_refused,
+2026-10-04T17:22:56.819727+00:00,AcademicPapers,AcademicPapers.nexus,DEGRADED,200,3193,latency_high,
