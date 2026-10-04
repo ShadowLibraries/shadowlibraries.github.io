@@ -180,3 +180,4 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-04T13:54:07.557762+00:00,AcademicPapers,AcademicPapers.nexus,UP,200,129,,
 2026-10-04T13:58:17.901329+00:00,AcademicPapers,AcademicPapers.nexus,UP,200,119,,
 2026-10-04T14:02:39.156522+00:00,AcademicPapers,AcademicPapers.nexus,DEGRADED,200,10153,latency_high,
+2026-10-04T14:06:54.180521+00:00,AcademicPapers,AcademicPapers.nexus,DEGRADED,200,15162,latency_high,
