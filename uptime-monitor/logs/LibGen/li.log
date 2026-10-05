@@ -708,3 +708,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-05T13:27:18.478705+00:00,LibGen,LibGen.li,UP,200,2079,,
 2026-10-05T13:28:19.053793+00:00,LibGen,LibGen.li,UP,200,1588,,
 2026-10-05T13:29:20.051220+00:00,LibGen,LibGen.li,UP,200,2279,,
+2026-10-05T13:30:19.810024+00:00,LibGen,LibGen.li,UP,200,1349,,
+2026-10-05T13:31:19.729905+00:00,LibGen,LibGen.li,DOWN,500,802,http_error,
+2026-10-05T13:32:21.637336+00:00,LibGen,LibGen.li,UP,200,2132,,
+2026-10-05T13:33:21.577491+00:00,LibGen,LibGen.li,UP,200,1059,,
+2026-10-05T13:34:23.173534+00:00,LibGen,LibGen.li,UP,200,2158,,
