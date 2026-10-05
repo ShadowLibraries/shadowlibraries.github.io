@@ -420,3 +420,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-05T08:37:24.483526+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,879,,DDoS-Guard
 2026-10-05T08:38:24.478796+00:00,Annas-Archive,Annas-Archive.gd,DOWN,,,connection_refused,
 2026-10-05T08:39:25.375847+00:00,Annas-Archive,Annas-Archive.gd,DOWN,502,944,http_error,
+2026-10-05T08:40:29.254109+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,3833,,DDoS-Guard
+2026-10-05T08:41:26.333785+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,757,,DDoS-Guard
+2026-10-05T08:42:26.252951+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,357,,DDoS-Guard
+2026-10-05T08:43:35.175844+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,9294,,DDoS-Guard
+2026-10-05T08:44:26.270569+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,468,,DDoS-Guard

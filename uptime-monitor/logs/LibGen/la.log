@@ -420,3 +420,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-05T08:37:23.899069+00:00,LibGen,LibGen.la,DOWN,500,488,http_error,
 2026-10-05T08:38:26.390699+00:00,LibGen,LibGen.la,PROTECTED,200,1470,,Cloudflare
 2026-10-05T08:39:45.010717+00:00,LibGen,LibGen.la,TIMEOUT,,,timeout,
+2026-10-05T08:40:25.817652+00:00,LibGen,LibGen.la,PROTECTED,503,469,,Cloudflare
+2026-10-05T08:41:25.525785+00:00,LibGen,LibGen.la,PROTECTED,503,152,,Cloudflare
+2026-10-05T08:42:25.981635+00:00,LibGen,LibGen.la,PROTECTED,503,304,,Cloudflare
+2026-10-05T08:43:26.169088+00:00,LibGen,LibGen.la,PROTECTED,503,466,,Cloudflare
+2026-10-05T08:44:26.517374+00:00,LibGen,LibGen.la,PROTECTED,200,690,,Cloudflare
