@@ -1502,3 +1502,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-09T02:47:35.847418+00:00,Others,Others.memory,TIMEOUT,,,timeout,
 2026-10-09T02:48:36.159808+00:00,Others,Others.memory,TIMEOUT,,,timeout,
 2026-10-09T02:49:35.894717+00:00,Others,Others.memory,TIMEOUT,,,timeout,
+2026-10-09T02:50:36.276764+00:00,Others,Others.memory,TIMEOUT,,,timeout,
+2026-10-09T02:51:36.357696+00:00,Others,Others.memory,TIMEOUT,,,timeout,
+2026-10-09T02:52:36.245628+00:00,Others,Others.memory,TIMEOUT,,,timeout,
+2026-10-09T02:53:19.485712+00:00,Others,Others.memory,DOWN,502,3377,http_error,
+2026-10-09T02:54:19.398099+00:00,Others,Others.memory,DOWN,502,3119,http_error,
