@@ -301,3 +301,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-09T06:36:57.044229+00:00,LibGen,LibGen.gl,PROTECTED,200,1682,,Cloudflare
 2026-10-09T06:38:14.925408+00:00,LibGen,LibGen.gl,TIMEOUT,,,timeout,
 2026-10-09T06:39:14.519525+00:00,LibGen,LibGen.gl,TIMEOUT,,,timeout,
+2026-10-09T06:39:59.937309+00:00,LibGen,LibGen.gl,PROTECTED,200,3868,,Cloudflare
+2026-10-09T06:40:58.056939+00:00,LibGen,LibGen.gl,PROTECTED,200,1291,,Cloudflare
+2026-10-09T06:42:00.018019+00:00,LibGen,LibGen.gl,PROTECTED,200,1819,,Cloudflare
+2026-10-09T06:43:00.563058+00:00,LibGen,LibGen.gl,PROTECTED,200,1394,,Cloudflare
+2026-10-09T06:44:21.490030+00:00,LibGen,LibGen.gl,DOWN,,,connection_refused,
