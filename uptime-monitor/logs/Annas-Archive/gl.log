@@ -1219,3 +1219,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-10T22:03:02.291255+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,8414,,DDoS-Guard
 2026-10-10T22:03:54.891088+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,823,,DDoS-Guard
 2026-10-10T22:04:55.320042+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,793,http_error,
+2026-10-10T22:06:03.998957+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,8912,,DDoS-Guard
+2026-10-10T22:06:55.370041+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,353,http_error,
+2026-10-10T22:08:02.797935+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,7655,,DDoS-Guard
+2026-10-10T22:09:04.132625+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,8819,,DDoS-Guard
