@@ -980,3 +980,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-10T18:02:36.164519+00:00,Annas-Archive,Annas-Archive.gd,DOWN,502,873,http_error,
 2026-10-10T18:03:41.162214+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,4757,,DDoS-Guard
 2026-10-10T18:04:37.280791+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,971,,DDoS-Guard
+2026-10-10T18:05:37.631745+00:00,Annas-Archive,Annas-Archive.gd,DOWN,502,890,http_error,
+2026-10-10T18:06:38.374627+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1230,,DDoS-Guard
+2026-10-10T18:07:41.484761+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,3179,,DDoS-Guard
+2026-10-10T18:08:39.186616+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,709,,DDoS-Guard
