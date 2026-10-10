@@ -380,3 +380,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-10T07:57:06.549863+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,841,,DDoS-Guard
 2026-10-10T07:58:08.079781+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,1625,,DDoS-Guard
 2026-10-10T07:59:08.061569+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,729,http_error,
+2026-10-10T08:00:08.858146+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,1038,http_error,
+2026-10-10T08:01:09.495316+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,1084,,DDoS-Guard
+2026-10-10T08:02:09.886079+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,867,http_error,
+2026-10-10T08:03:22.743301+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,12733,,DDoS-Guard
+2026-10-10T08:04:12.131662+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,1007,,DDoS-Guard
