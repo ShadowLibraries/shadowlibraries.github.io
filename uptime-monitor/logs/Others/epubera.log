@@ -1045,3 +1045,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-11T19:07:20.452865+00:00,Others,Others.epubera,PROTECTED,200,3393,,Cloudflare
 2026-10-11T19:08:40.622938+00:00,Others,Others.epubera,PROTECTED,200,16551,,Cloudflare
 2026-10-11T19:09:25.529097+00:00,Others,Others.epubera,PROTECTED,200,6090,,Cloudflare
+2026-10-11T19:10:51.459347+00:00,Others,Others.epubera,DOWN,,,connection_refused,
+2026-10-11T19:11:39.573237+00:00,Others,Others.epubera,PROTECTED,200,15169,,Cloudflare
+2026-10-11T19:13:04.126257+00:00,Others,Others.epubera,TIMEOUT,,,timeout,
+2026-10-11T19:13:28.979034+00:00,Others,Others.epubera,PROTECTED,200,7749,,Cloudflare
