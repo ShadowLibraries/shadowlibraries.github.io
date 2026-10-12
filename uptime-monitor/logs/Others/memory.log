@@ -1273,3 +1273,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-12T22:57:53.072886+00:00,Others,Others.memory,UP,200,2778,,
 2026-10-12T22:58:54.760755+00:00,Others,Others.memory,DEGRADED,200,3825,latency_high,
 2026-10-12T22:59:51.556639+00:00,Others,Others.memory,UP,200,201,,
+2026-10-12T23:00:53.550189+00:00,Others,Others.memory,UP,200,825,,
+2026-10-12T23:02:06.374139+00:00,Others,Others.memory,DEGRADED,200,13351,latency_high,
+2026-10-12T23:02:54.405578+00:00,Others,Others.memory,UP,200,713,,
+2026-10-12T23:03:55.945246+00:00,Others,Others.memory,UP,200,1320,,
