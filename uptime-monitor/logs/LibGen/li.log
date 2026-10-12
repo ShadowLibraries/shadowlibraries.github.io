@@ -609,3 +609,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-12T11:47:49.985478+00:00,LibGen,LibGen.li,UP,200,2855,,
 2026-10-12T11:48:50.349668+00:00,LibGen,LibGen.li,UP,200,1916,,
 2026-10-12T11:49:48.900608+00:00,LibGen,LibGen.li,UP,200,1146,,
+2026-10-12T11:50:49.307518+00:00,LibGen,LibGen.li,DOWN,500,995,http_error,
+2026-10-12T11:51:50.011183+00:00,LibGen,LibGen.li,UP,200,1259,,
+2026-10-12T11:52:49.910782+00:00,LibGen,LibGen.li,UP,200,877,,
+2026-10-12T11:53:50.814589+00:00,LibGen,LibGen.li,UP,200,1635,,
