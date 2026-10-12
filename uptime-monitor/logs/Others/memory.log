@@ -380,3 +380,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-12T07:57:29.300226+00:00,Others,Others.memory,UP,200,548,,
 2026-10-12T07:58:29.375136+00:00,Others,Others.memory,UP,200,356,,
 2026-10-12T07:59:30.195789+00:00,Others,Others.memory,UP,200,889,,
+2026-10-12T08:00:31.993679+00:00,Others,Others.memory,UP,200,1541,,
+2026-10-12T08:01:33.828086+00:00,Others,Others.memory,DEGRADED,200,3017,latency_high,
+2026-10-12T08:02:31.463714+00:00,Others,Others.memory,UP,200,380,,
+2026-10-12T08:03:31.820223+00:00,Others,Others.memory,UP,200,109,,
+2026-10-12T08:04:31.937078+00:00,Others,Others.memory,UP,200,423,,
