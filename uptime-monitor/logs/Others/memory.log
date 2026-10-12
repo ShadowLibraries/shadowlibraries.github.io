@@ -1268,3 +1268,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-12T22:52:50.657755+00:00,Others,Others.memory,DEGRADED,200,3796,latency_high,
 2026-10-12T22:53:48.019337+00:00,Others,Others.memory,UP,200,198,,
 2026-10-12T22:54:48.106419+00:00,Others,Others.memory,UP,200,200,,
+2026-10-12T22:55:51.270830+00:00,Others,Others.memory,UP,200,2573,,
+2026-10-12T22:56:52.147467+00:00,Others,Others.memory,UP,200,1913,,
+2026-10-12T22:57:53.072886+00:00,Others,Others.memory,UP,200,2778,,
+2026-10-12T22:58:54.760755+00:00,Others,Others.memory,DEGRADED,200,3825,latency_high,
+2026-10-12T22:59:51.556639+00:00,Others,Others.memory,UP,200,201,,
