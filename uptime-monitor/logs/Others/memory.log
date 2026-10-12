@@ -881,3 +881,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-12T16:22:01.349266+00:00,Others,Others.memory,UP,200,431,,
 2026-10-12T16:23:01.358308+00:00,Others,Others.memory,UP,200,106,,
 2026-10-12T16:24:02.385485+00:00,Others,Others.memory,UP,200,109,,
+2026-10-12T16:25:03.358235+00:00,Others,Others.memory,UP,200,596,,
+2026-10-12T16:26:03.486008+00:00,Others,Others.memory,UP,200,443,,
+2026-10-12T16:27:03.915742+00:00,Others,Others.memory,UP,200,449,,
+2026-10-12T16:28:07.968401+00:00,Others,Others.memory,DEGRADED,200,3767,latency_high,
+2026-10-12T16:29:05.249740+00:00,Others,Others.memory,UP,200,708,,
