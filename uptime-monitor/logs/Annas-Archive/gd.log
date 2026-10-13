@@ -1396,3 +1396,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-13T01:02:18.577962+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,11581,,DDoS-Guard
 2026-10-13T01:03:12.445715+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,5077,,DDoS-Guard
 2026-10-13T01:04:08.941023+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1022,,DDoS-Guard
+2026-10-13T01:05:18.934178+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,10376,,DDoS-Guard
+2026-10-13T01:06:10.264049+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1160,,DDoS-Guard
+2026-10-13T01:07:10.743179+00:00,Annas-Archive,Annas-Archive.gd,DOWN,502,1162,http_error,
+2026-10-13T01:08:11.359655+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,931,,DDoS-Guard
+2026-10-13T01:09:12.512931+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1112,,DDoS-Guard
