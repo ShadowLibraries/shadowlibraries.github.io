@@ -404,3 +404,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-14T08:22:14.224015+00:00,LibGen,LibGen.bz,TIMEOUT,,,timeout,
 2026-10-14T08:23:14.447775+00:00,LibGen,LibGen.bz,TIMEOUT,,,timeout,
 2026-10-14T08:24:14.544983+00:00,LibGen,LibGen.bz,TIMEOUT,,,timeout,
+2026-10-14T08:25:14.754969+00:00,LibGen,LibGen.bz,TIMEOUT,,,timeout,
+2026-10-14T08:26:14.708088+00:00,LibGen,LibGen.bz,TIMEOUT,,,timeout,
+2026-10-14T08:26:54.860834+00:00,LibGen,LibGen.bz,DOWN,502,762,http_error,
+2026-10-14T08:28:15.651452+00:00,LibGen,LibGen.bz,TIMEOUT,,,timeout,
+2026-10-14T08:29:15.866327+00:00,LibGen,LibGen.bz,TIMEOUT,,,timeout,
