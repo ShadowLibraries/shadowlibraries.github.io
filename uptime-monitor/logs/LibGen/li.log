@@ -310,3 +310,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-14T06:47:32.555969+00:00,LibGen,LibGen.li,TIMEOUT,,,timeout,
 2026-10-14T06:48:32.561942+00:00,LibGen,LibGen.li,TIMEOUT,,,timeout,
 2026-10-14T06:49:12.644557+00:00,LibGen,LibGen.li,DOWN,502,734,http_error,
+2026-10-14T06:50:32.683419+00:00,LibGen,LibGen.li,TIMEOUT,,,timeout,
+2026-10-14T06:51:13.973437+00:00,LibGen,LibGen.li,DOWN,502,1073,http_error,
+2026-10-14T06:52:33.904393+00:00,LibGen,LibGen.li,TIMEOUT,,,timeout,
+2026-10-14T06:53:33.994803+00:00,LibGen,LibGen.li,TIMEOUT,,,timeout,
