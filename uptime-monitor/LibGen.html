@@ -60,10 +60,6 @@
             <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
             <div style="color: #8b949e; line-height: 1.5;">
                 
-                <div>Status: <span style="color: #c9d1d9;">502</span></div>
-                
-                
-                <div>Latency: <span style="color: #c9d1d9;">747ms</span></div>
                 
                 
                 
@@ -73,7 +69,7 @@
                     
                     
                     
-                    <br><span>Latest: 2026-10-14T06:05:00+00:00 | DOWN | FailureType.TIMEOUT</span>
+                    <br><span>Latest: 2026-10-14T06:10:00+00:00 | DOWN | FailureType.TIMEOUT</span>
                     
                     
                     
@@ -130,8 +126,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/li.log">
-        
-        <span class="down" data-timestamp="2026-10-14T06:05:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T06:05:00+00:00 - DOWN | timeout"></span>
         
         <span class="down" data-timestamp="2026-10-14T06:10:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T06:10:00+00:00 - DOWN | timeout"></span>
         
@@ -226,6 +220,8 @@
         <span class="down" data-timestamp="2026-10-14T09:55:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T09:55:00+00:00 - DOWN | timeout"></span>
         
         <span class="down" data-timestamp="2026-10-14T10:00:00+00:00" data-status="DOWN" data-http-status="502" data-latency="747" data-failure="FailureType.HTTP_ERROR" title="2026-10-14T10:00:00+00:00 - DOWN | HTTP 502 | 747ms | http_error"></span>
+        
+        <span class="down" data-timestamp="2026-10-14T10:05:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T10:05:00+00:00 - DOWN | timeout"></span>
     </div>
 
     
@@ -276,7 +272,7 @@
                     
                     
                     
-                    <br><span>Latest: 2026-10-14T06:05:00+00:00 | DOWN | FailureType.CONNECTION_REFUSED</span>
+                    <br><span>Latest: 2026-10-14T06:10:00+00:00 | DOWN | FailureType.CONNECTION_REFUSED</span>
                     
                     
                     
@@ -333,8 +329,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/vg.log">
-        
-        <span class="down" data-timestamp="2026-10-14T06:05:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-10-14T06:05:00+00:00 - DOWN | connection_refused"></span>
         
         <span class="down" data-timestamp="2026-10-14T06:10:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-10-14T06:10:00+00:00 - DOWN | connection_refused"></span>
         
@@ -429,6 +423,8 @@
         <span class="down" data-timestamp="2026-10-14T09:55:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-10-14T09:55:00+00:00 - DOWN | connection_refused"></span>
         
         <span class="down" data-timestamp="2026-10-14T10:00:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-10-14T10:00:00+00:00 - DOWN | connection_refused"></span>
+        
+        <span class="down" data-timestamp="2026-10-14T10:05:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-10-14T10:05:00+00:00 - DOWN | connection_refused"></span>
     </div>
 
     
@@ -444,8 +440,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="LibGen.la" data-log-path="logs/LibGen/la.log" data-domain-url="libgen.la" data-archive-links='[{"date": "2026-10", "url": "logs/archive/2026-10/LibGen/la.log"}, {"date": "2026-09", "url": "logs/archive/2026-09/LibGen/la.log"}, {"date": "2026-08", "url": "logs/archive/2026-08/LibGen/la.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge down">
-                DOWN
+            <span class="status-badge degraded">
+                DEGRADED
             </span>
         </div>
     </div>
@@ -470,21 +466,20 @@
             <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
             <div style="color: #8b949e; line-height: 1.5;">
                 
-                <div>Status: <span style="color: #c9d1d9;">502</span></div>
+                <div>Status: <span style="color: #c9d1d9;">503</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">831ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">533ms</span></div>
                 
                 
                 
-                
-                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #da3633; font-size: 0.75rem;">
-                    <strong>DOWN:</strong> 2+ checks failed.
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
+                    <strong>DEGRADED:</strong> 1 check failed.
                     
                     
                     
+                    <br><span style="color: #da3633;">Latest: 2026-10-14T06:10:00+00:00 | DOWN | FailureType.TIMEOUT</span>
                     
-                    <br><span>Latest: 2026-10-14T06:10:00+00:00 | DOWN | FailureType.TIMEOUT</span>
                     
                     
                     
@@ -534,14 +529,13 @@
                     
                 </div>
                 
+                
                 <div style="margin-top: 0.5rem;">Cert: Dec 28 (74d) ✓</div>
             </div>
         </div>
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/la.log">
-        
-        <span class="degraded" data-timestamp="2026-10-14T06:05:00+00:00" data-status="DEGRADED" data-http-status="503" data-latency="160" data-failure="" title="2026-10-14T06:05:00+00:00 - DEGRADED | HTTP 503 | 160ms"></span>
         
         <span class="down" data-timestamp="2026-10-14T06:10:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T06:10:00+00:00 - DOWN | timeout"></span>
         
@@ -636,6 +630,8 @@
         <span class="degraded" data-timestamp="2026-10-14T09:55:00+00:00" data-status="DEGRADED" data-http-status="503" data-latency="558" data-failure="" title="2026-10-14T09:55:00+00:00 - DEGRADED | HTTP 503 | 558ms"></span>
         
         <span class="down" data-timestamp="2026-10-14T10:00:00+00:00" data-status="DOWN" data-http-status="502" data-latency="831" data-failure="FailureType.HTTP_ERROR" title="2026-10-14T10:00:00+00:00 - DOWN | HTTP 502 | 831ms | http_error"></span>
+        
+        <span class="degraded" data-timestamp="2026-10-14T10:05:00+00:00" data-status="DEGRADED" data-http-status="503" data-latency="533" data-failure="" title="2026-10-14T10:05:00+00:00 - DEGRADED | HTTP 503 | 533ms"></span>
     </div>
 
     
@@ -677,10 +673,6 @@
             <div style="color: #f0883e; font-weight: 600; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em;">Actual</div>
             <div style="color: #8b949e; line-height: 1.5;">
                 
-                <div>Status: <span style="color: #c9d1d9;">502</span></div>
-                
-                
-                <div>Latency: <span style="color: #c9d1d9;">749ms</span></div>
                 
                 
                 
@@ -690,7 +682,7 @@
                     
                     
                     
-                    <br><span>Latest: 2026-10-14T06:05:00+00:00 | DOWN | FailureType.TIMEOUT</span>
+                    <br><span>Latest: 2026-10-14T06:10:00+00:00 | DOWN | FailureType.TIMEOUT</span>
                     
                     
                     
@@ -747,8 +739,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/bz.log">
-        
-        <span class="down" data-timestamp="2026-10-14T06:05:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T06:05:00+00:00 - DOWN | timeout"></span>
         
         <span class="down" data-timestamp="2026-10-14T06:10:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T06:10:00+00:00 - DOWN | timeout"></span>
         
@@ -843,6 +833,8 @@
         <span class="down" data-timestamp="2026-10-14T09:55:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T09:55:00+00:00 - DOWN | timeout"></span>
         
         <span class="down" data-timestamp="2026-10-14T10:00:00+00:00" data-status="DOWN" data-http-status="502" data-latency="749" data-failure="FailureType.HTTP_ERROR" title="2026-10-14T10:00:00+00:00 - DOWN | HTTP 502 | 749ms | http_error"></span>
+        
+        <span class="down" data-timestamp="2026-10-14T10:05:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T10:05:00+00:00 - DOWN | timeout"></span>
     </div>
 
     
@@ -893,8 +885,8 @@
                     
                     
                     
-                    
                     <br><span>Latest: 2026-10-14T06:10:00+00:00 | DOWN | FailureType.TIMEOUT</span>
+                    
                     
                     
                     
@@ -950,8 +942,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/LibGen/gl.log">
-        
-        <span class="degraded" data-timestamp="2026-10-14T06:05:00+00:00" data-status="DEGRADED" data-http-status="503" data-latency="601" data-failure="" title="2026-10-14T06:05:00+00:00 - DEGRADED | HTTP 503 | 601ms"></span>
         
         <span class="down" data-timestamp="2026-10-14T06:10:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T06:10:00+00:00 - DOWN | timeout"></span>
         
@@ -1046,6 +1036,8 @@
         <span class="down" data-timestamp="2026-10-14T09:55:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T09:55:00+00:00 - DOWN | timeout"></span>
         
         <span class="down" data-timestamp="2026-10-14T10:00:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T10:00:00+00:00 - DOWN | timeout"></span>
+        
+        <span class="down" data-timestamp="2026-10-14T10:05:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-10-14T10:05:00+00:00 - DOWN | timeout"></span>
     </div>
 
     
@@ -1126,7 +1118,7 @@
                 
             </div>
             
-            <p>Generated at 2026-10-14T10:04:44.568344+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
+            <p>Generated at 2026-10-14T10:09:50.389017+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
         </div>
     </div>
     
