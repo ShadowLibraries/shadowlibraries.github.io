@@ -613,3 +613,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-15T11:52:42.829049+00:00,LibGen,LibGen.la,DOWN,502,222,http_error,
 2026-10-15T11:53:43.651093+00:00,LibGen,LibGen.la,DOWN,502,317,http_error,
 2026-10-15T11:54:44.316533+00:00,LibGen,LibGen.la,DOWN,502,255,http_error,
+2026-10-15T11:55:44.920118+00:00,LibGen,LibGen.la,DOWN,502,198,http_error,
+2026-10-15T11:56:45.563289+00:00,LibGen,LibGen.la,DOWN,502,463,http_error,
+2026-10-15T11:57:46.335217+00:00,LibGen,LibGen.la,DOWN,502,493,http_error,
+2026-10-15T11:59:06.594846+00:00,LibGen,LibGen.la,TIMEOUT,,,timeout,
