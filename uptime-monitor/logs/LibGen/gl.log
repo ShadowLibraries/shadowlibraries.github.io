@@ -1592,3 +1592,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-15T04:17:21.165529+00:00,LibGen,LibGen.gl,TIMEOUT,,,timeout,
 2026-10-15T04:18:01.919713+00:00,LibGen,LibGen.gl,DOWN,502,843,http_error,
 2026-10-15T04:19:02.186549+00:00,LibGen,LibGen.gl,DOWN,502,1028,http_error,
+2026-10-15T04:20:03.225650+00:00,LibGen,LibGen.gl,DOWN,502,1171,http_error,
+2026-10-15T04:21:03.056566+00:00,LibGen,LibGen.gl,DOWN,502,810,http_error,
+2026-10-15T04:22:03.559968+00:00,LibGen,LibGen.gl,DOWN,502,524,http_error,
+2026-10-15T04:23:04.431415+00:00,LibGen,LibGen.gl,DOWN,502,880,http_error,
+2026-10-15T04:24:04.591764+00:00,LibGen,LibGen.gl,DOWN,502,680,http_error,
