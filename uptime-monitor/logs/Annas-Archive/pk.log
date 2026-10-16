@@ -1329,3 +1329,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-15T23:57:59.395108+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,2574,,DDoS-Guard
 2026-10-15T23:59:09.846724+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,13081,,DDoS-Guard
 2026-10-15T23:59:58.329182+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1400,,DDoS-Guard
+2026-10-16T00:00:57.377488+00:00,Annas-Archive,Annas-Archive.pk,DOWN,502,649,http_error,
+2026-10-16T00:02:02.130102+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,4284,,DDoS-Guard
+2026-10-16T00:02:59.542091+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,825,,DDoS-Guard
+2026-10-16T00:04:00.968846+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1270,,DDoS-Guard
