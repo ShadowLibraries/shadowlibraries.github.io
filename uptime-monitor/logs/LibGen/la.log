@@ -662,3 +662,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-16T12:42:48.208331+00:00,LibGen,LibGen.la,TIMEOUT,,,timeout,
 2026-10-16T12:43:29.571038+00:00,LibGen,LibGen.la,PROTECTED,503,528,,Cloudflare
 2026-10-16T12:44:30.138432+00:00,LibGen,LibGen.la,PROTECTED,503,312,,Cloudflare
+2026-10-16T12:45:30.754757+00:00,LibGen,LibGen.la,PROTECTED,503,172,,Cloudflare
+2026-10-16T12:46:31.871021+00:00,LibGen,LibGen.la,PROTECTED,503,481,,Cloudflare
+2026-10-16T12:47:52.290714+00:00,LibGen,LibGen.la,TIMEOUT,,,timeout,
+2026-10-16T12:48:33.594076+00:00,LibGen,LibGen.la,PROTECTED,503,539,,Cloudflare
+2026-10-16T12:49:34.279183+00:00,LibGen,LibGen.la,PROTECTED,503,454,,Cloudflare
