@@ -923,3 +923,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-17T17:07:41.715798+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,2815,,DDoS-Guard
 2026-10-17T17:08:53.296051+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,14539,,DDoS-Guard
 2026-10-17T17:09:40.357574+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,610,,DDoS-Guard
+2026-10-17T17:10:42.991162+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,2480,,DDoS-Guard
+2026-10-17T17:11:41.035913+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,132,http_error,
+2026-10-17T17:12:52.000848+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,10221,,DDoS-Guard
+2026-10-17T17:13:43.562381+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,818,,DDoS-Guard
