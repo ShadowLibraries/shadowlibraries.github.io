@@ -987,3 +987,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-17T18:12:33.195263+00:00,LibGen,LibGen.li,DEGRADED,200,3802,latency_high,
 2026-10-17T18:13:28.172314+00:00,LibGen,LibGen.li,UP,200,726,,
 2026-10-17T18:14:29.805743+00:00,LibGen,LibGen.li,UP,200,795,,
+2026-10-17T18:15:30.301471+00:00,LibGen,LibGen.li,UP,200,660,,
+2026-10-17T18:16:51.314742+00:00,LibGen,LibGen.li,DOWN,,,connection_refused,
+2026-10-17T18:17:32.405713+00:00,LibGen,LibGen.li,UP,200,757,,
+2026-10-17T18:18:32.302268+00:00,LibGen,LibGen.li,UP,200,753,,
