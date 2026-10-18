@@ -583,3 +583,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-18T11:22:09.743330+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,432,http_error,
 2026-10-18T11:23:10.225425+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,497,http_error,
 2026-10-18T11:24:11.060993+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,547,http_error,
+2026-10-18T11:25:11.862273+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,530,,DDoS-Guard
+2026-10-18T11:26:12.778912+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,336,,DDoS-Guard
+2026-10-18T11:27:13.314416+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,506,,DDoS-Guard
+2026-10-18T11:28:14.137723+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,564,,DDoS-Guard
+2026-10-18T11:29:14.488976+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,533,http_error,
