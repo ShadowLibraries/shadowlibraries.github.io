@@ -1201,3 +1201,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-18T21:47:53.440400+00:00,LibGen,LibGen.li,UP,200,802,,
 2026-10-18T21:48:54.239520+00:00,LibGen,LibGen.li,UP,200,738,,
 2026-10-18T21:49:54.955975+00:00,LibGen,LibGen.li,UP,200,263,,
+2026-10-18T21:51:17.273027+00:00,LibGen,LibGen.li,DOWN,,,connection_refused,
+2026-10-18T21:51:55.830424+00:00,LibGen,LibGen.li,UP,200,964,,
+2026-10-18T21:52:56.714705+00:00,LibGen,LibGen.li,UP,200,283,,
+2026-10-18T21:53:59.226784+00:00,LibGen,LibGen.li,UP,200,1036,,
+2026-10-18T21:54:58.526033+00:00,LibGen,LibGen.li,UP,200,717,,
