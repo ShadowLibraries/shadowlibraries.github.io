@@ -420,3 +420,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-18T08:37:01.310241+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,1026,http_error,
 2026-10-18T08:38:02.153474+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,883,http_error,
 2026-10-18T08:39:02.635994+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,592,,DDoS-Guard
+2026-10-18T08:40:03.803165+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,1017,http_error,
+2026-10-18T08:41:04.581118+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,968,,DDoS-Guard
+2026-10-18T08:42:04.875111+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,520,,DDoS-Guard
+2026-10-18T08:43:06.087323+00:00,AcademicPapers,AcademicPapers.scinet,PROTECTED,200,991,,DDoS-Guard
+2026-10-18T08:44:06.386863+00:00,AcademicPapers,AcademicPapers.scinet,DOWN,502,522,http_error,
