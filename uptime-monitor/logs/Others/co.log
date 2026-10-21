@@ -1554,3 +1554,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-21T03:42:54.413630+00:00,Others,Others.co,PROTECTED,503,203,,Cloudflare
 2026-10-21T03:43:54.711588+00:00,Others,Others.co,PROTECTED,503,255,,Cloudflare
 2026-10-21T03:44:54.877772+00:00,Others,Others.co,PROTECTED,503,264,,Cloudflare
+2026-10-21T03:45:55.449547+00:00,Others,Others.co,PROTECTED,503,251,,Cloudflare
+2026-10-21T03:47:14.529456+00:00,Others,Others.co,DOWN,522,19328,http_error,
+2026-10-21T03:48:14.608827+00:00,Others,Others.co,DOWN,522,19366,http_error,
+2026-10-21T03:49:15.362400+00:00,Others,Others.co,DOWN,522,19752,http_error,
+2026-10-21T03:49:55.631446+00:00,Others,Others.co,PROTECTED,503,210,,Cloudflare
