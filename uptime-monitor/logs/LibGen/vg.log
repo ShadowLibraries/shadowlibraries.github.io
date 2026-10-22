@@ -973,3 +973,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-22T18:17:47.022014+00:00,LibGen,LibGen.vg,UP,200,1402,,
 2026-10-22T18:18:46.320242+00:00,LibGen,LibGen.vg,UP,200,1301,,
 2026-10-22T18:19:48.256032+00:00,LibGen,LibGen.vg,UP,200,1336,,
+2026-10-22T18:20:47.886982+00:00,LibGen,LibGen.vg,UP,200,1409,,
+2026-10-22T18:21:53.352953+00:00,LibGen,LibGen.vg,DEGRADED,200,4329,latency_high,
+2026-10-22T18:22:53.766720+00:00,LibGen,LibGen.vg,DEGRADED,200,5771,latency_high,
+2026-10-22T18:23:50.112339+00:00,LibGen,LibGen.vg,UP,200,2093,,
