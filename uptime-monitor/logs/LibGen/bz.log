@@ -859,3 +859,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-23T16:22:57.313478+00:00,LibGen,LibGen.bz,UP,200,696,,
 2026-10-23T16:23:57.212750+00:00,LibGen,LibGen.bz,UP,200,755,,
 2026-10-23T16:24:58.159663+00:00,LibGen,LibGen.bz,UP,200,818,,
+2026-10-23T16:25:59.578045+00:00,LibGen,LibGen.bz,UP,200,1080,,
+2026-10-23T16:27:00.936870+00:00,LibGen,LibGen.bz,UP,200,1592,,
+2026-10-23T16:28:21.010635+00:00,LibGen,LibGen.bz,DOWN,,,connection_refused,
+2026-10-23T16:29:01.667147+00:00,LibGen,LibGen.bz,UP,200,613,,
