@@ -503,3 +503,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-25T10:22:52.143986+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,8579,,DDoS-Guard
 2026-10-25T10:23:46.873957+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,2294,,DDoS-Guard
 2026-10-25T10:24:46.333827+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,879,,DDoS-Guard
+2026-10-25T10:25:46.335097+00:00,Annas-Archive,Annas-Archive.gl,DOWN,,,connection_refused,
+2026-10-25T10:26:59.696838+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,12308,,DDoS-Guard
+2026-10-25T10:27:48.457000+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,1184,,DDoS-Guard
+2026-10-25T10:28:48.662095+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,612,,DDoS-Guard
