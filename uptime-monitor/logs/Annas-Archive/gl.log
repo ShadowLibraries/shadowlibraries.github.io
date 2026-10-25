@@ -833,3 +833,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-25T15:57:04.018857+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,6342,,DDoS-Guard
 2026-10-25T15:58:00.596842+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,2915,,DDoS-Guard
 2026-10-25T15:58:59.449748+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,857,,DDoS-Guard
+2026-10-25T15:59:59.447090+00:00,Annas-Archive,Annas-Archive.gl,DOWN,,,connection_refused,
+2026-10-25T16:01:02.320045+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,2254,,DDoS-Guard
+2026-10-25T16:02:01.116000+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,967,,DDoS-Guard
+2026-10-25T16:03:06.079781+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,4969,,DDoS-Guard
+2026-10-25T16:04:04.051642+00:00,Annas-Archive,Annas-Archive.gl,PROTECTED,200,2015,,DDoS-Guard
