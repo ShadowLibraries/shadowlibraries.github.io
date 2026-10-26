@@ -701,3 +701,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-26T13:42:00.359313+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,838,,DDoS-Guard
 2026-10-26T13:43:03.007213+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,2561,,DDoS-Guard
 2026-10-26T13:44:01.954825+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,655,,DDoS-Guard
+2026-10-26T13:45:02.929623+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,798,,DDoS-Guard
+2026-10-26T13:46:05.979079+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,2803,,DDoS-Guard
+2026-10-26T13:47:04.840652+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,745,,DDoS-Guard
+2026-10-26T13:48:24.741306+00:00,Annas-Archive,Annas-Archive.pk,TIMEOUT,,,timeout,
+2026-10-26T13:49:05.178489+00:00,Annas-Archive,Annas-Archive.pk,DOWN,500,702,http_error,
