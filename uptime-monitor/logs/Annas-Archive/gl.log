@@ -1512,3 +1512,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-29T03:17:34.577479+00:00,Annas-Archive,Annas-Archive.gl,DOWN,,,connection_refused,
 2026-10-29T03:18:35.303541+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,610,http_error,
 2026-10-29T03:19:35.496623+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,661,http_error,
+2026-10-29T03:20:35.989990+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,603,http_error,
+2026-10-29T03:21:37.125441+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,1634,http_error,
+2026-10-29T03:22:36.359165+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,545,http_error,
+2026-10-29T03:23:36.506653+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,544,http_error,
+2026-10-29T03:24:37.388845+00:00,Annas-Archive,Annas-Archive.gl,DOWN,502,849,http_error,
