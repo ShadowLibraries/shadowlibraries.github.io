@@ -20,7 +20,7 @@
 <header>
     <h1>Others</h1>
     <p class="subtitle">
-        Status: <span class="status-badge UP">UP</span>
+        Status: <span class="status-badge DEGRADED">DEGRADED</span>
     </p>
 </header>
 <div class="card" id="Others.memory">
@@ -63,7 +63,7 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">416ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">321ms</span></div>
                 
                 
                 
@@ -74,8 +74,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/Others/memory.log">
-        
-        <span class="up" data-timestamp="2026-10-29T11:30:00+00:00" data-status="UP" data-http-status="200" data-latency="360" data-failure="" title="2026-10-29T11:30:00+00:00 - UP | HTTP 200 | 360ms"></span>
         
         <span class="up" data-timestamp="2026-10-29T11:35:00+00:00" data-status="UP" data-http-status="200" data-latency="385" data-failure="" title="2026-10-29T11:35:00+00:00 - UP | HTTP 200 | 385ms"></span>
         
@@ -170,6 +168,8 @@
         <span class="up" data-timestamp="2026-10-29T15:20:00+00:00" data-status="UP" data-http-status="200" data-latency="332" data-failure="" title="2026-10-29T15:20:00+00:00 - UP | HTTP 200 | 332ms"></span>
         
         <span class="up" data-timestamp="2026-10-29T15:25:00+00:00" data-status="UP" data-http-status="200" data-latency="416" data-failure="" title="2026-10-29T15:25:00+00:00 - UP | HTTP 200 | 416ms"></span>
+        
+        <span class="up" data-timestamp="2026-10-29T15:30:00+00:00" data-status="UP" data-http-status="200" data-latency="321" data-failure="" title="2026-10-29T15:30:00+00:00 - UP | HTTP 200 | 321ms"></span>
     </div>
 
     
@@ -185,8 +185,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="Others.co" data-log-path="logs/Others/co.log" data-domain-url="ww3.lectulandia.co" data-archive-links='[{"date": "2026-10", "url": "logs/archive/2026-10/Others/co.log"}, {"date": "2026-09", "url": "logs/archive/2026-09/Others/co.log"}, {"date": "2026-08", "url": "logs/archive/2026-08/Others/co.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge protected">
-                PROTECTED
+            <span class="status-badge degraded">
+                DEGRADED
             </span>
         </div>
     </div>
@@ -214,9 +214,65 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">356ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">245ms</span></div>
                 
                 
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
+                    <strong>DEGRADED:</strong> 1 check failed.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <br><span style="color: #da3633;">Latest: 2026-10-29T15:10:00+00:00 | DOWN | FailureType.CONNECTION_REFUSED</span>
+                    
+                    
+                    
+                    
+                    
+                </div>
                 
                 
                 <div style="margin-top: 0.5rem;">Cert: Dec 02 (33d) ✓</div>
@@ -225,8 +281,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/Others/co.log">
-        
-        <span class="protected" data-timestamp="2026-10-29T11:30:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="275" data-failure="" title="2026-10-29T11:30:00+00:00 - PROTECTED | HTTP 200 | 275ms"></span>
         
         <span class="protected" data-timestamp="2026-10-29T11:35:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="1010" data-failure="" title="2026-10-29T11:35:00+00:00 - PROTECTED | HTTP 200 | 1010ms"></span>
         
@@ -321,18 +375,10 @@
         <span class="protected" data-timestamp="2026-10-29T15:20:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="137" data-failure="" title="2026-10-29T15:20:00+00:00 - PROTECTED | HTTP 200 | 137ms"></span>
         
         <span class="protected" data-timestamp="2026-10-29T15:25:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="356" data-failure="" title="2026-10-29T15:25:00+00:00 - PROTECTED | HTTP 200 | 356ms"></span>
+        
+        <span class="degraded" data-timestamp="2026-10-29T15:30:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="245" data-failure="" title="2026-10-29T15:30:00+00:00 - DEGRADED | HTTP 200 | 245ms"></span>
     </div>
 
-    
-    <div style="margin-top: 0.75rem; padding: 0.5rem; background: #161b22; border: 1px solid #238636; border-radius: 4px; font-size: 0.75rem;">
-        <strong style="color: #3fb950;">Protected Site</strong>
-        
-        <span style="color: #58a6ff; margin-left: 0.5rem;">Cloudflare</span>
-        
-        <p style="margin: 0.25rem 0 0 0; color: #8b949e;">
-            Bot protection active.
-        </p>
-    </div>
     
 </div>
 <div class="card" id="Others.org">
@@ -375,7 +421,7 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">490ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">522ms</span></div>
                 
                 
                 
@@ -386,8 +432,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/Others/org.log">
-        
-        <span class="up" data-timestamp="2026-10-29T11:30:00+00:00" data-status="UP" data-http-status="200" data-latency="452" data-failure="" title="2026-10-29T11:30:00+00:00 - UP | HTTP 200 | 452ms"></span>
         
         <span class="up" data-timestamp="2026-10-29T11:35:00+00:00" data-status="UP" data-http-status="200" data-latency="460" data-failure="" title="2026-10-29T11:35:00+00:00 - UP | HTTP 200 | 460ms"></span>
         
@@ -482,6 +526,8 @@
         <span class="up" data-timestamp="2026-10-29T15:20:00+00:00" data-status="UP" data-http-status="200" data-latency="494" data-failure="" title="2026-10-29T15:20:00+00:00 - UP | HTTP 200 | 494ms"></span>
         
         <span class="up" data-timestamp="2026-10-29T15:25:00+00:00" data-status="UP" data-http-status="200" data-latency="490" data-failure="" title="2026-10-29T15:25:00+00:00 - UP | HTTP 200 | 490ms"></span>
+        
+        <span class="up" data-timestamp="2026-10-29T15:30:00+00:00" data-status="UP" data-http-status="200" data-latency="522" data-failure="" title="2026-10-29T15:30:00+00:00 - UP | HTTP 200 | 522ms"></span>
     </div>
 
     
@@ -526,7 +572,7 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">261ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">217ms</span></div>
                 
                 
                 
@@ -537,8 +583,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/Others/epubera.log">
-        
-        <span class="protected" data-timestamp="2026-10-29T11:30:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="195" data-failure="" title="2026-10-29T11:30:00+00:00 - PROTECTED | HTTP 200 | 195ms"></span>
         
         <span class="protected" data-timestamp="2026-10-29T11:35:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="62" data-failure="" title="2026-10-29T11:35:00+00:00 - PROTECTED | HTTP 200 | 62ms"></span>
         
@@ -633,6 +677,8 @@
         <span class="protected" data-timestamp="2026-10-29T15:20:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="64" data-failure="" title="2026-10-29T15:20:00+00:00 - PROTECTED | HTTP 200 | 64ms"></span>
         
         <span class="protected" data-timestamp="2026-10-29T15:25:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="261" data-failure="" title="2026-10-29T15:25:00+00:00 - PROTECTED | HTTP 200 | 261ms"></span>
+        
+        <span class="protected" data-timestamp="2026-10-29T15:30:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="217" data-failure="" title="2026-10-29T15:30:00+00:00 - PROTECTED | HTTP 200 | 217ms"></span>
     </div>
 
     
@@ -687,7 +733,7 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">135ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">130ms</span></div>
                 
                 
                 
@@ -698,8 +744,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/Others/epublibre.log">
-        
-        <span class="up" data-timestamp="2026-10-29T11:30:00+00:00" data-status="UP" data-http-status="200" data-latency="554" data-failure="" title="2026-10-29T11:30:00+00:00 - UP | HTTP 200 | 554ms"></span>
         
         <span class="up" data-timestamp="2026-10-29T11:35:00+00:00" data-status="UP" data-http-status="200" data-latency="133" data-failure="" title="2026-10-29T11:35:00+00:00 - UP | HTTP 200 | 133ms"></span>
         
@@ -794,6 +838,8 @@
         <span class="up" data-timestamp="2026-10-29T15:20:00+00:00" data-status="UP" data-http-status="200" data-latency="548" data-failure="" title="2026-10-29T15:20:00+00:00 - UP | HTTP 200 | 548ms"></span>
         
         <span class="up" data-timestamp="2026-10-29T15:25:00+00:00" data-status="UP" data-http-status="200" data-latency="135" data-failure="" title="2026-10-29T15:25:00+00:00 - UP | HTTP 200 | 135ms"></span>
+        
+        <span class="up" data-timestamp="2026-10-29T15:30:00+00:00" data-status="UP" data-http-status="200" data-latency="130" data-failure="" title="2026-10-29T15:30:00+00:00 - UP | HTTP 200 | 130ms"></span>
     </div>
 
     
@@ -874,7 +920,7 @@
                 
             </div>
             
-            <p>Generated at 2026-10-29T15:29:32.952222+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
+            <p>Generated at 2026-10-29T15:34:34.449500+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
         </div>
     </div>
     
