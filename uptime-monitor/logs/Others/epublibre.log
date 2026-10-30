@@ -1013,3 +1013,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-30T18:57:46.134769+00:00,Others,Others.epublibre,UP,200,558,,
 2026-10-30T18:58:46.507639+00:00,Others,Others.epublibre,UP,200,589,,
 2026-10-30T18:59:47.206348+00:00,Others,Others.epublibre,UP,200,580,,
+2026-10-30T19:00:47.471365+00:00,Others,Others.epublibre,UP,200,715,,
+2026-10-30T19:01:50.165476+00:00,Others,Others.epublibre,DEGRADED,200,3054,latency_high,
+2026-10-30T19:02:47.781739+00:00,Others,Others.epublibre,UP,200,752,,
+2026-10-30T19:03:48.455499+00:00,Others,Others.epublibre,UP,200,1222,,
+2026-10-30T19:04:47.799827+00:00,Others,Others.epublibre,UP,200,623,,
