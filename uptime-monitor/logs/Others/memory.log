@@ -622,3 +622,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-30T12:22:34.832612+00:00,Others,Others.memory,DOWN,502,3352,http_error,
 2026-10-30T12:23:34.801128+00:00,Others,Others.memory,DOWN,502,3385,http_error,
 2026-10-30T12:24:35.645063+00:00,Others,Others.memory,DOWN,502,3380,http_error,
+2026-10-30T12:25:36.658692+00:00,Others,Others.memory,DOWN,502,3403,http_error,
+2026-10-30T12:26:33.958736+00:00,Others,Others.memory,DOWN,,,connection_refused,
+2026-10-30T12:27:36.789239+00:00,Others,Others.memory,DOWN,502,3100,http_error,
+2026-10-30T12:28:38.130345+00:00,Others,Others.memory,DOWN,502,3344,http_error,
