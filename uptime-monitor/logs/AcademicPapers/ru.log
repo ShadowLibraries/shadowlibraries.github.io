@@ -562,3 +562,9 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-10-30T11:21:43.661939+00:00,AcademicPapers,AcademicPapers.ru,DOWN,502,972,http_error,
 2026-10-30T11:22:45.226494+00:00,AcademicPapers,AcademicPapers.ru,PROTECTED,200,1530,,DDoS-Guard
 2026-10-30T11:23:45.674257+00:00,AcademicPapers,AcademicPapers.ru,DOWN,502,1229,http_error,
+2026-10-30T11:24:46.281506+00:00,AcademicPapers,AcademicPapers.ru,DOWN,502,1261,http_error,
+2026-10-30T11:25:46.949715+00:00,AcademicPapers,AcademicPapers.ru,DOWN,502,1463,http_error,
+2026-10-30T11:26:47.869529+00:00,AcademicPapers,AcademicPapers.ru,PROTECTED,200,1286,,DDoS-Guard
+2026-10-30T11:27:48.718231+00:00,AcademicPapers,AcademicPapers.ru,DOWN,502,1282,http_error,
+2026-10-30T11:28:48.635337+00:00,AcademicPapers,AcademicPapers.ru,DOWN,502,1172,http_error,
+2026-10-30T11:29:49.831968+00:00,AcademicPapers,AcademicPapers.ru,DOWN,502,1372,http_error,
