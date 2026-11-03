@@ -1373,3 +1373,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-03T00:57:34.016061+00:00,Others,Others.org,TIMEOUT,,,timeout,
 2026-11-03T00:58:21.687911+00:00,Others,Others.org,DEGRADED,200,7571,latency_high,
 2026-11-03T00:59:14.686649+00:00,Others,Others.org,UP,200,487,,
+2026-11-03T01:00:15.426077+00:00,Others,Others.org,UP,200,541,,
+2026-11-03T01:01:15.591505+00:00,Others,Others.org,UP,200,424,,
+2026-11-03T01:02:16.278736+00:00,Others,Others.org,UP,200,567,,
+2026-11-03T01:03:16.497715+00:00,Others,Others.org,UP,200,485,,
+2026-11-03T01:04:16.800400+00:00,Others,Others.org,UP,200,584,,
