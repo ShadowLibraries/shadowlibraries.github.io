@@ -906,3 +906,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-05T17:07:22.190090+00:00,Annas-Archive,Annas-Archive.gl,DOWN,500,514,http_error,
 2026-11-05T17:08:22.391103+00:00,Annas-Archive,Annas-Archive.gl,DOWN,500,649,http_error,
 2026-11-05T17:09:22.578735+00:00,Annas-Archive,Annas-Archive.gl,DOWN,500,285,http_error,
+2026-11-05T17:10:23.203749+00:00,Annas-Archive,Annas-Archive.gl,DOWN,500,607,http_error,
+2026-11-05T17:11:23.423843+00:00,Annas-Archive,Annas-Archive.gl,DOWN,500,794,http_error,
+2026-11-05T17:12:43.059852+00:00,Annas-Archive,Annas-Archive.gl,TIMEOUT,,,timeout,
+2026-11-05T17:13:43.105887+00:00,Annas-Archive,Annas-Archive.gl,TIMEOUT,,,timeout,
+2026-11-05T17:14:23.538429+00:00,Annas-Archive,Annas-Archive.gl,DOWN,500,675,http_error,
