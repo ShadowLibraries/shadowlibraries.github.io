@@ -1043,3 +1043,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-07T19:27:48.937557+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,711,,DDoS-Guard
 2026-11-07T19:28:50.228238+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1172,,DDoS-Guard
 2026-11-07T19:29:50.559137+00:00,Annas-Archive,Annas-Archive.pk,DOWN,502,701,http_error,
+2026-11-07T19:30:51.481394+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,715,,DDoS-Guard
+2026-11-07T19:31:52.309848+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,749,,DDoS-Guard
+2026-11-07T19:32:52.991586+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,521,,DDoS-Guard
+2026-11-07T19:33:54.758616+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1397,,DDoS-Guard
