@@ -482,3 +482,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-08T10:02:42.898635+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
 2026-11-08T10:03:43.580633+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
 2026-11-08T10:04:44.163855+00:00,LibGen,LibGen.vg,TIMEOUT,,,timeout,
+2026-11-08T10:05:25.072559+00:00,LibGen,LibGen.vg,DOWN,,,connection_refused,
+2026-11-08T10:06:25.758547+00:00,LibGen,LibGen.vg,DOWN,,,connection_refused,
+2026-11-08T10:07:26.094647+00:00,LibGen,LibGen.vg,DOWN,,,connection_refused,
+2026-11-08T10:08:26.724611+00:00,LibGen,LibGen.vg,DOWN,,,connection_refused,
+2026-11-08T10:09:27.448535+00:00,LibGen,LibGen.vg,DOWN,,,connection_refused,
