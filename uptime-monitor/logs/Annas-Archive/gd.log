@@ -1223,3 +1223,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-09T22:32:27.732434+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1089,,DDoS-Guard
 2026-11-09T22:33:29.372682+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1918,,DDoS-Guard
 2026-11-09T22:34:29.898069+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1553,,DDoS-Guard
+2026-11-09T22:35:50.962150+00:00,Annas-Archive,Annas-Archive.gd,DOWN,,,connection_refused,
+2026-11-09T22:36:56.460568+00:00,Annas-Archive,Annas-Archive.gd,DOWN,,,connection_refused,
+2026-11-09T22:37:31.450838+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,679,,DDoS-Guard
+2026-11-09T22:38:32.723950+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1139,,DDoS-Guard
+2026-11-09T22:39:33.037015+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,654,,DDoS-Guard
