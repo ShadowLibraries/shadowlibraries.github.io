@@ -1099,3 +1099,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-11T20:27:27.169596+00:00,LibGen,LibGen.vg,UP,200,1421,,
 2026-11-11T20:28:27.983194+00:00,LibGen,LibGen.vg,UP,200,1409,,
 2026-11-11T20:29:29.035864+00:00,LibGen,LibGen.vg,UP,200,1436,,
+2026-11-11T20:30:48.528737+00:00,LibGen,LibGen.vg,DOWN,,,connection_refused,
+2026-11-11T20:31:30.858043+00:00,LibGen,LibGen.vg,UP,200,1441,,
+2026-11-11T20:32:31.637099+00:00,LibGen,LibGen.vg,UP,200,1432,,
+2026-11-11T20:33:32.281163+00:00,LibGen,LibGen.vg,UP,200,1472,,
