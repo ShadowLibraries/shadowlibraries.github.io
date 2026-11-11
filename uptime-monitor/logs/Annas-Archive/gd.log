@@ -803,3 +803,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-11T15:27:32.643028+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,798,,DDoS-Guard
 2026-11-11T15:28:33.665363+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1155,,DDoS-Guard
 2026-11-11T15:29:34.950446+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1650,,DDoS-Guard
+2026-11-11T15:30:35.499993+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1535,,DDoS-Guard
+2026-11-11T15:31:36.631360+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,1947,,DDoS-Guard
+2026-11-11T15:32:35.863331+00:00,Annas-Archive,Annas-Archive.gd,DOWN,502,626,http_error,
+2026-11-11T15:33:36.598622+00:00,Annas-Archive,Annas-Archive.gd,PROTECTED,200,592,,DDoS-Guard
