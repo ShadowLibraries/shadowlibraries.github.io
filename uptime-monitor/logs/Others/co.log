@@ -714,3 +714,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-12T13:57:18.142602+00:00,Others,Others.co,PROTECTED,200,497,,Cloudflare
 2026-11-12T13:58:18.481164+00:00,Others,Others.co,PROTECTED,200,157,,Cloudflare
 2026-11-12T13:59:19.175890+00:00,Others,Others.co,PROTECTED,200,144,,Cloudflare
+2026-11-12T14:00:39.672316+00:00,Others,Others.co,TIMEOUT,,,timeout,
+2026-11-12T14:01:20.928169+00:00,Others,Others.co,PROTECTED,200,422,,Cloudflare
+2026-11-12T14:02:21.411295+00:00,Others,Others.co,PROTECTED,200,112,,Cloudflare
+2026-11-12T14:03:22.187568+00:00,Others,Others.co,PROTECTED,200,194,,Cloudflare
+2026-11-12T14:04:23.067976+00:00,Others,Others.co,PROTECTED,200,234,,Cloudflare
