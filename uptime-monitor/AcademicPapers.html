@@ -73,7 +73,7 @@
                 <div>Status: <span style="color: #c9d1d9;">403</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">336ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">310ms</span></div>
                 
                 
                 
@@ -84,10 +84,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/AcademicPapers/st.log">
-        
-        <span class="protected" data-timestamp="2026-11-12T23:15:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="362" data-failure="" title="2026-11-12T23:15:00+00:00 - PROTECTED | HTTP 403 | 362ms"></span>
-        
-        <span class="protected" data-timestamp="2026-11-12T23:20:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="283" data-failure="" title="2026-11-12T23:20:00+00:00 - PROTECTED | HTTP 403 | 283ms"></span>
         
         <span class="protected" data-timestamp="2026-11-12T23:25:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="349" data-failure="" title="2026-11-12T23:25:00+00:00 - PROTECTED | HTTP 403 | 349ms"></span>
         
@@ -180,6 +176,10 @@
         <span class="protected" data-timestamp="2026-11-13T03:05:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="319" data-failure="" title="2026-11-13T03:05:00+00:00 - PROTECTED | HTTP 403 | 319ms"></span>
         
         <span class="protected" data-timestamp="2026-11-13T03:10:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="336" data-failure="" title="2026-11-13T03:10:00+00:00 - PROTECTED | HTTP 403 | 336ms"></span>
+        
+        <span class="protected" data-timestamp="2026-11-13T03:15:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="310" data-failure="" title="2026-11-13T03:15:00+00:00 - PROTECTED | HTTP 403 | 310ms"></span>
+        
+        <span class="unknown" data-timestamp="2026-11-13T03:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-11-13T03:20:00+00:00 - UNKNOWN"></span>
     </div>
 
     
@@ -244,7 +244,7 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">950ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">827ms</span></div>
                 
                 
                 
@@ -255,10 +255,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/AcademicPapers/ru.log">
-        
-        <span class="protected" data-timestamp="2026-11-12T23:15:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="2139" data-failure="" title="2026-11-12T23:15:00+00:00 - PROTECTED | HTTP 200 | 2139ms"></span>
-        
-        <span class="protected" data-timestamp="2026-11-12T23:20:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="1555" data-failure="" title="2026-11-12T23:20:00+00:00 - PROTECTED | HTTP 200 | 1555ms"></span>
         
         <span class="protected" data-timestamp="2026-11-12T23:25:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="861" data-failure="" title="2026-11-12T23:25:00+00:00 - PROTECTED | HTTP 200 | 861ms"></span>
         
@@ -351,6 +347,10 @@
         <span class="protected" data-timestamp="2026-11-13T03:05:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="1020" data-failure="" title="2026-11-13T03:05:00+00:00 - PROTECTED | HTTP 200 | 1020ms"></span>
         
         <span class="protected" data-timestamp="2026-11-13T03:10:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="950" data-failure="" title="2026-11-13T03:10:00+00:00 - PROTECTED | HTTP 200 | 950ms"></span>
+        
+        <span class="protected" data-timestamp="2026-11-13T03:15:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="827" data-failure="" title="2026-11-13T03:15:00+00:00 - PROTECTED | HTTP 200 | 827ms"></span>
+        
+        <span class="unknown" data-timestamp="2026-11-13T03:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-11-13T03:20:00+00:00 - UNKNOWN"></span>
     </div>
 
     
@@ -376,8 +376,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="AcademicPapers.scinet" data-log-path="logs/AcademicPapers/scinet.log" data-domain-url="sci-net.xyz" data-archive-links='[{"date": "2026-11", "url": "logs/archive/2026-11/AcademicPapers/scinet.log"}, {"date": "2026-10", "url": "logs/archive/2026-10/AcademicPapers/scinet.log"}, {"date": "2026-09", "url": "logs/archive/2026-09/AcademicPapers/scinet.log"}, {"date": "2026-08", "url": "logs/archive/2026-08/AcademicPapers/scinet.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge protected">
-                PROTECTED
+            <span class="status-badge degraded">
+                DEGRADED
             </span>
         </div>
     </div>
@@ -405,9 +405,62 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">785ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">391ms</span></div>
                 
                 
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
+                    <strong>DEGRADED:</strong> 1 check failed.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
                 
                 
                 <div style="margin-top: 0.5rem;">Cert: Dec 22 (39d) ✓</div>
@@ -416,10 +469,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/AcademicPapers/scinet.log">
-        
-        <span class="protected" data-timestamp="2026-11-12T23:15:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="377" data-failure="" title="2026-11-12T23:15:00+00:00 - PROTECTED | HTTP 200 | 377ms"></span>
-        
-        <span class="protected" data-timestamp="2026-11-12T23:20:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="836" data-failure="" title="2026-11-12T23:20:00+00:00 - PROTECTED | HTTP 200 | 836ms"></span>
         
         <span class="protected" data-timestamp="2026-11-12T23:25:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="686" data-failure="" title="2026-11-12T23:25:00+00:00 - PROTECTED | HTTP 200 | 686ms"></span>
         
@@ -512,18 +561,12 @@
         <span class="protected" data-timestamp="2026-11-13T03:05:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="298" data-failure="" title="2026-11-13T03:05:00+00:00 - PROTECTED | HTTP 200 | 298ms"></span>
         
         <span class="protected" data-timestamp="2026-11-13T03:10:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="785" data-failure="" title="2026-11-13T03:10:00+00:00 - PROTECTED | HTTP 200 | 785ms"></span>
+        
+        <span class="degraded" data-timestamp="2026-11-13T03:15:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="391" data-failure="" title="2026-11-13T03:15:00+00:00 - DEGRADED | HTTP 200 | 391ms"></span>
+        
+        <span class="unknown" data-timestamp="2026-11-13T03:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-11-13T03:20:00+00:00 - UNKNOWN"></span>
     </div>
 
-    
-    <div style="margin-top: 0.75rem; padding: 0.5rem; background: #161b22; border: 1px solid #238636; border-radius: 4px; font-size: 0.75rem;">
-        <strong style="color: #3fb950;">Protected Site</strong>
-        
-        <span style="color: #58a6ff; margin-left: 0.5rem;">DDoS-Guard</span>
-        
-        <p style="margin: 0.25rem 0 0 0; color: #8b949e;">
-            Bot protection active.
-        </p>
-    </div>
     
 </div>
 <div class="card" id="AcademicPapers.nexus">
@@ -572,7 +615,7 @@
                     
                     
                     
-                    <br><span>Latest: 2026-11-12T23:15:00+00:00 | DOWN | FailureType.CONNECTION_REFUSED</span>
+                    <br><span>Latest: 2026-11-12T23:25:00+00:00 | DOWN | FailureType.CONNECTION_REFUSED</span>
                     
                     
                     
@@ -629,10 +672,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/AcademicPapers/nexus.log">
-        
-        <span class="down" data-timestamp="2026-11-12T23:15:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-11-12T23:15:00+00:00 - DOWN | connection_refused"></span>
-        
-        <span class="down" data-timestamp="2026-11-12T23:20:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-11-12T23:20:00+00:00 - DOWN | connection_refused"></span>
         
         <span class="down" data-timestamp="2026-11-12T23:25:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-11-12T23:25:00+00:00 - DOWN | connection_refused"></span>
         
@@ -725,6 +764,10 @@
         <span class="down" data-timestamp="2026-11-13T03:05:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-11-13T03:05:00+00:00 - DOWN | connection_refused"></span>
         
         <span class="down" data-timestamp="2026-11-13T03:10:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-11-13T03:10:00+00:00 - DOWN | connection_refused"></span>
+        
+        <span class="down" data-timestamp="2026-11-13T03:15:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.CONNECTION_REFUSED" title="2026-11-13T03:15:00+00:00 - DOWN | connection_refused"></span>
+        
+        <span class="unknown" data-timestamp="2026-11-13T03:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-11-13T03:20:00+00:00 - UNKNOWN"></span>
     </div>
 
     
@@ -769,7 +812,7 @@
                 <div>Status: <span style="color: #c9d1d9;">403</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">58ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">57ms</span></div>
                 
                 
                 
@@ -780,10 +823,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/AcademicPapers/pidantuan.log">
-        
-        <span class="protected" data-timestamp="2026-11-12T23:15:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="97" data-failure="" title="2026-11-12T23:15:00+00:00 - PROTECTED | HTTP 403 | 97ms"></span>
-        
-        <span class="protected" data-timestamp="2026-11-12T23:20:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="50" data-failure="" title="2026-11-12T23:20:00+00:00 - PROTECTED | HTTP 403 | 50ms"></span>
         
         <span class="protected" data-timestamp="2026-11-12T23:25:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="65" data-failure="" title="2026-11-12T23:25:00+00:00 - PROTECTED | HTTP 403 | 65ms"></span>
         
@@ -876,6 +915,10 @@
         <span class="protected" data-timestamp="2026-11-13T03:05:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="57" data-failure="" title="2026-11-13T03:05:00+00:00 - PROTECTED | HTTP 403 | 57ms"></span>
         
         <span class="protected" data-timestamp="2026-11-13T03:10:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="58" data-failure="" title="2026-11-13T03:10:00+00:00 - PROTECTED | HTTP 403 | 58ms"></span>
+        
+        <span class="protected" data-timestamp="2026-11-13T03:15:00+00:00" data-status="PROTECTED" data-http-status="403" data-latency="57" data-failure="" title="2026-11-13T03:15:00+00:00 - PROTECTED | HTTP 403 | 57ms"></span>
+        
+        <span class="unknown" data-timestamp="2026-11-13T03:20:00+00:00" data-status="UNKNOWN" data-http-status="" data-latency="" data-failure="" title="2026-11-13T03:20:00+00:00 - UNKNOWN"></span>
     </div>
 
     
@@ -966,7 +1009,7 @@
                 
             </div>
             
-            <p>Generated at 2026-11-13T03:14:56.526525+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
+            <p>Generated at 2026-11-13T03:20:00.928768+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
         </div>
     </div>
     
