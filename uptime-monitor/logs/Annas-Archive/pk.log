@@ -709,3 +709,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-15T13:47:28.313143+00:00,Annas-Archive,Annas-Archive.pk,DOWN,,,connection_refused,
 2026-11-15T13:48:30.459855+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1366,,DDoS-Guard
 2026-11-15T13:49:33.136966+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,3150,,DDoS-Guard
+2026-11-15T13:50:32.321835+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1538,,DDoS-Guard
+2026-11-15T13:51:32.368656+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,857,,DDoS-Guard
+2026-11-15T13:52:33.392886+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,1037,,DDoS-Guard
+2026-11-15T13:53:37.239120+00:00,Annas-Archive,Annas-Archive.pk,PROTECTED,200,4128,,DDoS-Guard
