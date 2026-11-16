@@ -1276,3 +1276,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-16T23:22:33.369877+00:00,Others,Others.memory,TIMEOUT,,,timeout,
 2026-11-16T23:23:34.524461+00:00,Others,Others.memory,TIMEOUT,,,timeout,
 2026-11-16T23:24:35.271543+00:00,Others,Others.memory,TIMEOUT,,,timeout,
+2026-11-16T23:25:35.984887+00:00,Others,Others.memory,TIMEOUT,,,timeout,
+2026-11-16T23:26:32.977218+00:00,Others,Others.memory,DOWN,,,connection_refused,
+2026-11-16T23:27:37.983545+00:00,Others,Others.memory,TIMEOUT,,,timeout,
+2026-11-16T23:28:39.119136+00:00,Others,Others.memory,TIMEOUT,,,timeout,
