@@ -793,3 +793,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-18T15:12:48.985661+00:00,Others,Others.memory,TIMEOUT,,,timeout,
 2026-11-18T15:13:49.587804+00:00,Others,Others.memory,TIMEOUT,,,timeout,
 2026-11-18T15:14:30.885689+00:00,Others,Others.memory,DOWN,503,355,http_error,
+2026-11-18T15:15:31.456416+00:00,Others,Others.memory,UP,200,386,,
+2026-11-18T15:16:31.899102+00:00,Others,Others.memory,UP,200,325,,
+2026-11-18T15:17:32.846006+00:00,Others,Others.memory,UP,200,356,,
+2026-11-18T15:18:33.371252+00:00,Others,Others.memory,UP,200,99,,
