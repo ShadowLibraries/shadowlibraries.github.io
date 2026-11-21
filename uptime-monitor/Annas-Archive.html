@@ -20,7 +20,7 @@
 <header>
     <h1>Annas-Archive</h1>
     <p class="subtitle">
-        Status: <span class="status-badge DEGRADED">DEGRADED</span>
+        Status: <span class="status-badge DOWN">DOWN</span>
     </p>
 </header>
 <div class="card" id="Annas-Archive.gl">
@@ -63,7 +63,7 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">608ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">4519ms</span></div>
                 
                 
                 
@@ -74,8 +74,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/Annas-Archive/gl.log">
-        
-        <span class="protected" data-timestamp="2026-11-21T03:30:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="5057" data-failure="" title="2026-11-21T03:30:00+00:00 - PROTECTED | HTTP 200 | 5057ms"></span>
         
         <span class="protected" data-timestamp="2026-11-21T03:35:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="3380" data-failure="" title="2026-11-21T03:35:00+00:00 - PROTECTED | HTTP 200 | 3380ms"></span>
         
@@ -170,6 +168,8 @@
         <span class="down" data-timestamp="2026-11-21T07:20:00+00:00" data-status="DOWN" data-http-status="" data-latency="" data-failure="FailureType.TIMEOUT" title="2026-11-21T07:20:00+00:00 - DOWN | timeout"></span>
         
         <span class="protected" data-timestamp="2026-11-21T07:25:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="608" data-failure="" title="2026-11-21T07:25:00+00:00 - PROTECTED | HTTP 200 | 608ms"></span>
+        
+        <span class="protected" data-timestamp="2026-11-21T07:30:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="4519" data-failure="" title="2026-11-21T07:30:00+00:00 - PROTECTED | HTTP 200 | 4519ms"></span>
     </div>
 
     
@@ -224,13 +224,12 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">731ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">600ms</span></div>
                 
                 
                 
                 <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
                     <strong>DEGRADED:</strong> 1 check failed.
-                    
                     
                     
                     
@@ -282,6 +281,7 @@
                     
                     
                     
+                    
                 </div>
                 
                 
@@ -291,8 +291,6 @@
     </div>
 
     <div class="timeline" data-log-path="logs/Annas-Archive/pk.log">
-        
-        <span class="protected" data-timestamp="2026-11-21T03:30:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="635" data-failure="" title="2026-11-21T03:30:00+00:00 - PROTECTED | HTTP 200 | 635ms"></span>
         
         <span class="protected" data-timestamp="2026-11-21T03:35:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="2012" data-failure="" title="2026-11-21T03:35:00+00:00 - PROTECTED | HTTP 200 | 2012ms"></span>
         
@@ -387,6 +385,8 @@
         <span class="down" data-timestamp="2026-11-21T07:20:00+00:00" data-status="DOWN" data-http-status="200" data-latency="3171" data-failure="" title="2026-11-21T07:20:00+00:00 - DOWN | HTTP 200 | 3171ms"></span>
         
         <span class="degraded" data-timestamp="2026-11-21T07:25:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="731" data-failure="" title="2026-11-21T07:25:00+00:00 - DEGRADED | HTTP 200 | 731ms"></span>
+        
+        <span class="degraded" data-timestamp="2026-11-21T07:30:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="600" data-failure="" title="2026-11-21T07:30:00+00:00 - DEGRADED | HTTP 200 | 600ms"></span>
     </div>
 
     
@@ -402,8 +402,8 @@
             <div class="log-links">
                 <button class="log-link" data-domain-id="Annas-Archive.gd" data-log-path="logs/Annas-Archive/gd.log" data-domain-url="annas-archive.gd" data-archive-links='[{"date": "2026-11", "url": "logs/archive/2026-11/Annas-Archive/gd.log"}, {"date": "2026-10", "url": "logs/archive/2026-10/Annas-Archive/gd.log"}, {"date": "2026-09", "url": "logs/archive/2026-09/Annas-Archive/gd.log"}, {"date": "2026-08", "url": "logs/archive/2026-08/Annas-Archive/gd.log"}]' title="View recent logs">logs</button>
             </div>
-            <span class="status-badge degraded">
-                DEGRADED
+            <span class="status-badge down">
+                DOWN
             </span>
         </div>
     </div>
@@ -431,12 +431,13 @@
                 <div>Status: <span style="color: #c9d1d9;">200</span></div>
                 
                 
-                <div>Latency: <span style="color: #c9d1d9;">657ms</span></div>
+                <div>Latency: <span style="color: #c9d1d9;">531ms</span></div>
                 
                 
                 
-                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #f7dc6f; font-size: 0.75rem;">
-                    <strong>DEGRADED:</strong> 1 check failed.
+                
+                <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #21262d; color: #da3633; font-size: 0.75rem;">
+                    <strong>DOWN:</strong> 2+ checks failed.
                     
                     
                     
@@ -472,8 +473,8 @@
                     
                     
                     
+                    <br><span>Latest: 2026-11-21T06:15:00+00:00 | DOWN | HTTP 200</span>
                     
-                    <br><span style="color: #da3633;">Latest: 2026-11-21T06:15:00+00:00 | DOWN | HTTP 200</span>
                     
                     
                     
@@ -491,15 +492,12 @@
                     
                 </div>
                 
-                
                 <div style="margin-top: 0.5rem;">Cert: Feb 08 (79d) ✓</div>
             </div>
         </div>
     </div>
 
     <div class="timeline" data-log-path="logs/Annas-Archive/gd.log">
-        
-        <span class="protected" data-timestamp="2026-11-21T03:30:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="844" data-failure="" title="2026-11-21T03:30:00+00:00 - PROTECTED | HTTP 200 | 844ms"></span>
         
         <span class="protected" data-timestamp="2026-11-21T03:35:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="2124" data-failure="" title="2026-11-21T03:35:00+00:00 - PROTECTED | HTTP 200 | 2124ms"></span>
         
@@ -594,6 +592,8 @@
         <span class="protected" data-timestamp="2026-11-21T07:20:00+00:00" data-status="PROTECTED" data-http-status="200" data-latency="618" data-failure="" title="2026-11-21T07:20:00+00:00 - PROTECTED | HTTP 200 | 618ms"></span>
         
         <span class="degraded" data-timestamp="2026-11-21T07:25:00+00:00" data-status="DEGRADED" data-http-status="200" data-latency="657" data-failure="" title="2026-11-21T07:25:00+00:00 - DEGRADED | HTTP 200 | 657ms"></span>
+        
+        <span class="down" data-timestamp="2026-11-21T07:30:00+00:00" data-status="DOWN" data-http-status="200" data-latency="531" data-failure="" title="2026-11-21T07:30:00+00:00 - DOWN | HTTP 200 | 531ms"></span>
     </div>
 
     
@@ -674,7 +674,7 @@
                 
             </div>
             
-            <p>Generated at 2026-11-21T07:29:37.839115+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
+            <p>Generated at 2026-11-21T07:34:41.154107+00:00 | <a href="https://github.com/BrianZbr/flatmonitor" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">built with FlatMonitor</a></p>
         </div>
     </div>
     
