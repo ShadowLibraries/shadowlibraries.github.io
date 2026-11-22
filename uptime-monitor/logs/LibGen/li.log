@@ -783,3 +783,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-22T15:02:47.788424+00:00,LibGen,LibGen.li,UP,200,572,,
 2026-11-22T15:03:48.289945+00:00,LibGen,LibGen.li,UP,200,607,,
 2026-11-22T15:04:48.646785+00:00,LibGen,LibGen.li,UP,200,583,,
+2026-11-22T15:05:49.443563+00:00,LibGen,LibGen.li,UP,200,596,,
+2026-11-22T15:06:53.268714+00:00,LibGen,LibGen.li,DEGRADED,200,3653,latency_high,
+2026-11-22T15:07:51.753651+00:00,LibGen,LibGen.li,UP,200,886,,
+2026-11-22T15:09:12.120605+00:00,LibGen,LibGen.li,DOWN,,,connection_refused,
