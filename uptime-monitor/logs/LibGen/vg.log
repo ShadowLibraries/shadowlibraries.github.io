@@ -313,3 +313,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-22T07:07:10.419702+00:00,LibGen,LibGen.vg,DOWN,500,661,http_error,
 2026-11-22T07:08:11.621932+00:00,LibGen,LibGen.vg,DOWN,500,1234,http_error,
 2026-11-22T07:09:12.312882+00:00,LibGen,LibGen.vg,DOWN,500,1254,http_error,
+2026-11-22T07:10:12.936346+00:00,LibGen,LibGen.vg,DOWN,500,1210,http_error,
+2026-11-22T07:11:13.713933+00:00,LibGen,LibGen.vg,DOWN,500,1209,http_error,
+2026-11-22T07:12:14.373838+00:00,LibGen,LibGen.vg,DOWN,500,1229,http_error,
+2026-11-22T07:13:15.014784+00:00,LibGen,LibGen.vg,DOWN,500,1226,http_error,
+2026-11-22T07:14:15.695945+00:00,LibGen,LibGen.vg,DOWN,500,1242,http_error,
