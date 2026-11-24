@@ -965,3 +965,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-24T18:06:57.761272+00:00,Others,Others.co,DOWN,522,19328,http_error,
 2026-11-24T18:07:59.014540+00:00,Others,Others.co,DOWN,522,19584,http_error,
 2026-11-24T18:08:59.809638+00:00,Others,Others.co,DOWN,522,19326,http_error,
+2026-11-24T18:10:00.357845+00:00,Others,Others.co,DOWN,522,19344,http_error,
+2026-11-24T18:11:01.321829+00:00,Others,Others.co,DOWN,522,19350,http_error,
+2026-11-24T18:11:42.947708+00:00,Others,Others.co,DOWN,,,connection_refused,
+2026-11-24T18:13:03.177316+00:00,Others,Others.co,DOWN,522,19541,http_error,
+2026-11-24T18:14:04.105689+00:00,Others,Others.co,DOWN,522,19481,http_error,
