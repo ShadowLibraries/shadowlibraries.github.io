@@ -807,3 +807,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-25T15:27:11.622023+00:00,Others,Others.co,DOWN,521,155,http_error,
 2026-11-25T15:28:12.555986+00:00,Others,Others.co,DOWN,521,107,http_error,
 2026-11-25T15:29:13.198888+00:00,Others,Others.co,DOWN,521,99,http_error,
+2026-11-25T15:30:33.637061+00:00,Others,Others.co,DOWN,522,19613,http_error,
+2026-11-25T15:31:15.175002+00:00,Others,Others.co,DOWN,521,195,http_error,
+2026-11-25T15:32:15.774121+00:00,Others,Others.co,DOWN,521,165,http_error,
+2026-11-25T15:33:16.647998+00:00,Others,Others.co,DOWN,521,109,http_error,
+2026-11-25T15:34:17.454770+00:00,Others,Others.co,PROTECTED,200,176,,Cloudflare
