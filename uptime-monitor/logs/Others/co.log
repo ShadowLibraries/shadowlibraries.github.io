@@ -333,3 +333,8 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-25T07:27:11.059709+00:00,Others,Others.co,PROTECTED,503,218,,Cloudflare
 2026-11-25T07:28:11.832537+00:00,Others,Others.co,PROTECTED,503,273,,Cloudflare
 2026-11-25T07:29:31.684897+00:00,Others,Others.co,DOWN,522,19507,http_error,
+2026-11-25T07:30:32.647620+00:00,Others,Others.co,DOWN,522,19801,http_error,
+2026-11-25T07:31:21.018073+00:00,Others,Others.co,DOWN,521,7334,http_error,
+2026-11-25T07:32:14.771367+00:00,Others,Others.co,PROTECTED,503,253,,Cloudflare
+2026-11-25T07:33:15.336734+00:00,Others,Others.co,PROTECTED,503,231,,Cloudflare
+2026-11-25T07:34:15.976426+00:00,Others,Others.co,PROTECTED,503,193,,Cloudflare
