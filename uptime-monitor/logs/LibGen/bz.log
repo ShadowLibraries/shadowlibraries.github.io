@@ -799,3 +799,7 @@ timestamp,site_id,domain_id,domain_status,http_status,latency_ms,failure_type,pr
 2026-11-26T15:17:56.309834+00:00,LibGen,LibGen.bz,UP,200,597,,
 2026-11-26T15:18:57.133798+00:00,LibGen,LibGen.bz,UP,200,639,,
 2026-11-26T15:19:57.891047+00:00,LibGen,LibGen.bz,UP,200,600,,
+2026-11-26T15:20:59.480156+00:00,LibGen,LibGen.bz,UP,200,566,,
+2026-11-26T15:22:02.488462+00:00,LibGen,LibGen.bz,DEGRADED,200,3588,latency_high,
+2026-11-26T15:23:00.623464+00:00,LibGen,LibGen.bz,UP,200,589,,
+2026-11-26T15:24:02.199330+00:00,LibGen,LibGen.bz,UP,200,935,,
